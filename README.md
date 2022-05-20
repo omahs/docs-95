@@ -1,8 +1,10 @@
 # What is Defitrack?
 
-## What is Defitrack?
+## A Brief Summary
 
-Defitrack is a set of SDKS, smart contracts and graphs that contribute to a defi aggregation API. It's a fully open source API that lets you easily integrate DeFi in wallets and applications without having to know the specific underlying domain of the protocols and chains.
+Defitrack is a set of SDKS, smart contracts and graphs that contribute to a defi aggregation API. It's a fully open source API that lets you easily integrate DeFi in wallets and applications without having to know the specific underlying domain of the protocols and chains.&#x20;
+
+It unifies all concepts of lending, borrowing, vaults, farming and staking to easy to integrate elements.
 
 ## What is the future of Defitrack?
 

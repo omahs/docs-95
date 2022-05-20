@@ -20,11 +20,6 @@
   * [Balancer](general/supported-protocols/balancer.md)
   * [Adamant Finance](general/supported-protocols/adamant-finance.md)
   * [Aave](general/supported-protocols/aave.md)
-* [🏉 Yeet](general/yeet.md)
-
-## faq
-
-* [Claiming yield straight from the dashboard](faq/claiming-yield-straight-from-the-dashboard.md)
 
 ## API Endpoints
 
