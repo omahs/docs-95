@@ -21,26 +21,30 @@ slug of the protocol
 ```javascript
 [
    {
-      "name":"SushiToken (PoS) Aave Pool",
+      "id":"compound-ethereum-0x6c8c6b02e7b2be14d4fa6022dfd6d75921d90e4e",
+      "name":"Compound Basic Attention Token",
       "protocol":{
-         "name":"AAVE",
-         "logo":"https://static.defitrack.io/images/protocols/aave.png",
-         "slug":"aave"
+         "name":"COMPOUND",
+         "logo":"https://static.defitrack.io/images/protocols/compound.png",
+         "slug":"compound"
       },
       "network":{
-         "name":"POLYGON",
-         "logo":"https://static.defitrack.io/images/networks/polygon.png",
-         "chainId":137
+         "name":"ETHEREUM",
+         "logo":"https://static.defitrack.io/images/networks/ethereum.png",
+         "chainId":1
       },
       "token":{
-         "name":"SushiToken (PoS)",
-         "symbol":"SUSHI",
-         "address":"0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a",
-         "logo":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/polygon/assets/0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a/logo.png"
+         "address":"0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+         "name":"Basic Attention Token",
+         "decimals":18,
+         "symbol":"BAT",
+         "logo":"https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0D8775F648430679A709E98d2b0Cb6250d2887EF/logo.png",
+         "type":"SINGLE"
       },
-      "rate":0.0,
-      "poolType":"aave-v2",
-      "marketSize":37805.98174296621
+      "rate":0.0008,
+      "poolType":"compound-lendingpool",
+      "marketSize":54153981.17787066,
+      "prepareInvestmentSupported":true
    }
 ]
 ```
