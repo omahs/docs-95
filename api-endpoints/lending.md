@@ -104,6 +104,8 @@ network we want to find a lending market on
 
 ### Prepare an investment transaction for a Lending Market
 
+When [fetching Lending Markets](lending.md#fetching-all-supported-markets-for-a-specific-protocol), the field **prepareInvestmentSupported** is returned. This indicates whether or not Defitrack supports preparation of transactions for the underlying market.&#x20;
+
 {% swagger method="post" path="/{protocol}/lending/markets/{id}?network={network}" baseUrl="https://api.defitrack.io" summary="Fetch lending markets for a specific protocol, token and network" %}
 {% swagger-description %}
 Has to be sent in JSON format. Returns a list transactions that need to be signed and submitted in order. 
