@@ -26,7 +26,7 @@ address: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
 {% endswagger-response %}
 {% endswagger %}
 
-![](<../.gitbook/assets/carbon (4).png>)
+![An example of fetching information about WETH, Ether's ERC20 equivalent on Ethereum Mainnet.](<../.gitbook/assets/carbon (4).png>)
 
 {% swagger method="get" path="/erc20/{network}/{address}/token" baseUrl="https://api.defitrack.io" summary="Fetch more information about the token. This result will indicate which type of token we're dealing with." %}
 {% swagger-description %}
