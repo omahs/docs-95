@@ -112,17 +112,13 @@ When [fetching Lending Markets](lending.md#fetching-all-supported-markets-for-a-
 
 The result of this endpoint can be used to construct and sign transaction, without having to know the ABI. The **encoded function** and **contract address** are returned.
 
-{% swagger method="post" path="/{protocol}/lending/markets/{id}?network={network}" baseUrl="https://api.defitrack.io" summary="Fetch lending markets for a specific protocol, token and network" %}
+{% swagger method="post" path="/{protocol}/lending/markets/{id}?network={network}" baseUrl="https://api.defitrack.io" summary="Prepare investment transaction for lending market" %}
 {% swagger-description %}
 Has to be sent in JSON format. Returns a list transactions that need to be signed and submitted in order. 
 {% endswagger-description %}
 
 {% swagger-parameter in="path" name="id" required="true" type="String" %}
 id of the lending market
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="token" required="true" %}
-address of the token we want to find a lending market for
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="network" required="true" %}
@@ -142,17 +138,7 @@ can be left empty. If empty, all available balance of the required token will be
 {
   "transactions": [
     {
-      "function": {
-        "name": "mint",
-        "inputParameters": [
-          {
-            "value": 2359964734203309,
-            "bitSize": 256,
-            "typeAsString": "uint256"
-          }
-        ],
-        "outputParameters": []
-      },
+      "to": "0x78AB636351c1C5f117C1442B82d14aB3a92F8464",
       "encodedFunction": "0xa0712d68000000000000000000000000000000000000000000000000000862601baa25ad"
     }
   ]
