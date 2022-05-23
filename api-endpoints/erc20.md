@@ -2,7 +2,7 @@
 description: Various api endpoints to fetch ERC20-related token information.
 ---
 
-# ERC20
+# 🪙 ERC20
 
 ### Fetch wrapped token address
 
@@ -53,10 +53,63 @@ address of the token
 ```
 {% endswagger-response %}
 
-{% swagger-response status="200: OK" description="" %}
+{% swagger-response status="200: OK" description="Example of a Pool Token" %}
 ```javascript
 {
-    // Response
+  "logo": null,
+  "name": "Balancer Polygon Base Pool",
+  "symbol": "B-POLYBASE",
+  "address": "0x0297e37f1873d2dab4487aa67cd56b58e2f27875",
+  "decimals": 18,
+  "type": "BALANCER",
+  "totalSupply": 0,
+  "underlyingTokens": [
+    {
+      "logo": null,
+      "name": "Wrapped Matic",
+      "symbol": "WMATIC",
+      "address": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+      "decimals": 18,
+      "type": "SINGLE",
+      "totalSupply": 0,
+      "underlyingTokens": [],
+      "protocol": null
+    },
+    {
+      "logo": null,
+      "name": "USD Coin (PoS)",
+      "symbol": "USDC",
+      "address": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+      "decimals": 6,
+      "type": "SINGLE",
+      "totalSupply": 0,
+      "underlyingTokens": [],
+      "protocol": null
+    },
+    {
+      "logo": null,
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+      "decimals": 18,
+      "type": "SINGLE",
+      "totalSupply": 0,
+      "underlyingTokens": [],
+      "protocol": null
+    },
+    {
+      "logo": null,
+      "name": "Balancer (PoS)",
+      "symbol": "BAL",
+      "address": "0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3",
+      "decimals": 18,
+      "type": "SINGLE",
+      "totalSupply": 0,
+      "underlyingTokens": [],
+      "protocol": null
+    }
+  ],
+  "protocol": "BALANCER"
 }
 ```
 {% endswagger-response %}

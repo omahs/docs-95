@@ -1,4 +1,4 @@
-# Farming
+# 🐄 Farming Markets
 
 Defitrack tries to track various farming markets across various chains. We try to maintain an up to date database of active and inactive markets in order to locate user funds, as well as locate opportunities.
 
@@ -141,7 +141,7 @@ network we want to find a lending market on
 
 ### Prepare an investment transaction for a Farming Market
 
-When [fetching farming markets](farming.md#fetching-all-supported-markets-for-a-specific-protocol), the field **prepareInvestmentSupported** is returned. This indicates whether or not Defitrack supports preparation of transactions for the underlying market. In order to  create an investment transaction to the underlying protocol, the following endpoint can be used.
+When [fetching farming markets](farming-markets.md#fetching-all-supported-markets-for-a-specific-protocol), the field **prepareInvestmentSupported** is returned. This indicates whether or not Defitrack supports preparation of transactions for the underlying market. In order to  create an investment transaction to the underlying protocol, the following endpoint can be used.
 
 ![](<../.gitbook/assets/carbon (2).png>)
 

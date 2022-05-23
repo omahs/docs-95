@@ -1,4 +1,4 @@
-# Lending
+# 🏦 Lending Markets
 
 Defitrack tries to track various lending markets across various chains. We try to maintain an up to date database of active and inactive markets in order to locate user funds, as well as locate opportunities.
 
@@ -110,7 +110,7 @@ network we want to find a lending market on
 
 ![](<../.gitbook/assets/carbon (3).png>)
 
-When [fetching Lending Markets](lending.md#fetching-all-supported-markets-for-a-specific-protocol), the field **prepareInvestmentSupported** is returned. This indicates whether or not Defitrack supports preparation of transactions for the underlying market. In order to  create an investment transaction to the underlying protocol, the following endpoint can be used.
+When [fetching Lending Markets](lending-markets.md#fetching-all-supported-markets-for-a-specific-protocol), the field **prepareInvestmentSupported** is returned. This indicates whether or not Defitrack supports preparation of transactions for the underlying market. In order to  create an investment transaction to the underlying protocol, the following endpoint can be used.
 
 The result of this endpoint can be used to construct and sign transaction, without having to know the ABI. The **encoded function** and **contract address** are returned.
 
