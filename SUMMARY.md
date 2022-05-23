@@ -26,5 +26,5 @@
 * [Protocols](api-endpoints/protocols.md)
 * [Networks](api-endpoints/networks.md)
 * [🪙 ERC20](api-endpoints/erc20.md)
-* [🏦 Lending Markets](api-endpoints/lending-markets.md)
-* [🐄 Farming Markets](api-endpoints/farming-markets.md)
+* [🏦 Lending Markets](api-endpoints/lending.md)
+* [🐄 Farming Markets](api-endpoints/farming.md)

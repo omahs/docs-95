@@ -4,6 +4,8 @@ description: Various api endpoints to fetch ERC20-related token information.
 
 # 🪙 ERC20
 
+
+
 ### Fetch wrapped token address
 
 {% swagger method="get" path="/erc20/{network}/wrapped" baseUrl="https://api.defitrack.io" summary="Retrieve the wrapped token of the provided network" %}
@@ -23,6 +25,8 @@ address: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+![](<../.gitbook/assets/carbon (4).png>)
 
 {% swagger method="get" path="/erc20/{network}/{address}/token" baseUrl="https://api.defitrack.io" summary="Fetch more information about the token. This result will indicate which type of token we're dealing with." %}
 {% swagger-description %}
@@ -114,3 +118,4 @@ address of the token
 ```
 {% endswagger-response %}
 {% endswagger %}
+
