@@ -139,3 +139,46 @@ network we want to find a lending market on
 {% endswagger-response %}
 {% endswagger %}
 
+### Prepare an investment transaction for a Farming Market
+
+When [fetching farming markets](farming.md#fetching-all-supported-markets-for-a-specific-protocol), the field **prepareInvestmentSupported** is returned. This indicates whether or not Defitrack supports preparation of transactions for the underlying market. In order to  create an investment transaction to the underlying protocol, the following endpoint can be used.
+
+![](<../.gitbook/assets/carbon (2).png>)
+
+The result of this endpoint can be used to construct and sign transaction, without having to know the ABI. The **encoded function** and **contract address** are returned.
+
+{% swagger method="post" path="/{protocol}/lending/markets/{id}?network={network}" baseUrl="https://api.defitrack.io" summary="Prepare investment transaction for a specificf market." %}
+{% swagger-description %}
+Has to be sent in JSON format. Returns a list transactions that need to be signed and submitted in order. 
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="id" required="true" type="String" %}
+id of the lending market
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="network" required="true" %}
+network we want to work on
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="user" type="String" required="true" %}
+address of the user
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="amount" type="BigInteger" %}
+can be left empty. If empty, all available balance of the required token will be used to construct the transaction.
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+  "transactions": [
+    {
+      "to": "0x78AB636351c1C5f117C1442B82d14aB3a92F8464",
+      "encodedFunction": "0xa0712d68000000000000000000000000000000000000000000000000000862601baa25ad"
+    }
+  ]
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
