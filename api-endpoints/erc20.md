@@ -8,6 +8,8 @@ description: Various api endpoints to fetch ERC20-related token information.
 
 ### Fetch wrapped token address
 
+Each native token on a specific network has a wrapped version that can be used. We keep a mapping of every wrapped token version of the native token on a chain.&#x20;
+
 {% swagger method="get" path="/erc20/{network}/wrapped" baseUrl="https://api.defitrack.io" summary="Retrieve the wrapped token of the provided network" %}
 {% swagger-description %}
 Retrieve the wrapped version of a network's native token. 
