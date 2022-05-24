@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: editorial
 ---
 
 # What is Defitrack?
