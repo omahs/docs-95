@@ -1,3 +1,7 @@
+---
+description: A data type used to create a readable variant of a fungible token
+---
+
 # Fungible Token
 
 
