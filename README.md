@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # What is Defitrack?
 
 ## A Brief Summary
