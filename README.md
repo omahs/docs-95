@@ -1,7 +1,3 @@
----
-layout: editorial
----
-
 # What is Defitrack?
 
 ## A Brief Summary
