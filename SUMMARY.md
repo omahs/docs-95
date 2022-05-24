@@ -49,7 +49,7 @@
 ***
 
 * [Resources](resources/README.md)
-  * [Page 3](resources/page-3.md)
-  * [Page 1](resources/page-1.md)
-  * [Page 2](resources/page-2.md)
-  * [Code](resources/code.md)
+  * [Code](https://github.com/defitrack)
+  * [Twitter](https://twitter.com/defitrack)
+  * [Bounties](https://gitcoin.co/explorer?applicants=ALL\&keywords=defitrack)
+  * [Grant](https://gitcoin.co/grants/4539/defitrack-find-the-best-opportunities-in-the-defi)
