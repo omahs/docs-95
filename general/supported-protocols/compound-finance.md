@@ -1,9 +1,12 @@
-# Compound Finance
+---
+description: The current implementation and roadmap for the Compound rest API.
+---
+
+# Compound Finance API
 
 ## Ethereum Roadmap <a href="#ethereum-roadmap" id="ethereum-roadmap"></a>
 
-| Feature                          | Support                                   |
-| -------------------------------- | ----------------------------------------- |
-| View User Lending Positions      | ✅                                         |
-| View User Borrowing Positions    | ✅                                         |
-| Lend out directly from Dashboard | ​[❌](https://emojipedia.org/cross-mark/)​ |
+| Feature                       | Support |                                                                                 |
+| ----------------------------- | ------- | ------------------------------------------------------------------------------- |
+| Lending Positions             | ✅       | [view](https://defitrack.io/account/0x1578a50910f1850c046f66191818401d8be45fb5) |
+| View User Borrowing Positions | ✅       |                                                                                 |
