@@ -1,23 +1,21 @@
-# Aave
+---
+description: The current implementation and roadmap for the Aave V2 and Aave V3 rest API.
+---
+
+# Aave API
 
 ## Ethereum Roadmap
 
-| Feature                     | Support                                  |
-| --------------------------- | ---------------------------------------- |
-| User Lendings               | ✅                                        |
-| User Borrows                | ✅                                        |
-| Invest in LP from Dashboard | ​[❌](https://emojipedia.org/cross-mark/) |
-| Lending Opportunities       | [❌](https://emojipedia.org/cross-mark/)  |
-| Borrowing Opportunities     | [❌](https://emojipedia.org/cross-mark/)  |
-| Staking Rewards             | [❌](https://emojipedia.org/cross-mark/)  |
+| Feature             | Support                                 |
+| ------------------- | --------------------------------------- |
+| Lending Positions   | ✅                                       |
+| Borrowing Positions | ✅                                       |
+| Staking Rewards     | [❌](https://emojipedia.org/cross-mark/) |
 
 ## Polygon Roadmap
 
-| Feature                     | Support                                  |
-| --------------------------- | ---------------------------------------- |
-| User Lendings               | ✅                                        |
-| User Borrows                | ✅                                        |
-| Invest in LP from Dashboard | ​[❌](https://emojipedia.org/cross-mark/) |
-| Lending Opportunities       | [❌](https://emojipedia.org/cross-mark/)  |
-| Borrowing Opportunities     | [❌](https://emojipedia.org/cross-mark/)  |
+| Feature             | Support |
+| ------------------- | ------- |
+| Lending Positions   | ✅       |
+| Borrowing Positions | ✅       |
 

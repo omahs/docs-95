@@ -5,21 +5,28 @@
 ## General
 
 * [Supported Protocols](general/supported-protocols/README.md)
-  * [Yearn API](general/supported-protocols/yearn.md)
-  * [Uniswap API](general/supported-protocols/uniswap.md)
-  * [Sushiswap API](general/supported-protocols/sushiswap.md)
+  * [Aave API](general/supported-protocols/aave.md)
+  * [HumanDAO API](general/supported-protocols/humandao-api.md)
+  * [Curve Finance API](general/supported-protocols/curve-finance.md)
+  * [mStable API](general/supported-protocols/mstable.md)
+  * [Compound Finance API](general/supported-protocols/compound-finance.md)
+  * [Beefy Finance API](general/supported-protocols/beefy-finance.md)
   * [Quickswap API](general/supported-protocols/quickswap.md)
-  * [Polycat](general/supported-protocols/polycat.md)
-  * [mStable](general/supported-protocols/mstable.md)
-  * [Kyber DMM](general/supported-protocols/kyber-dmm.md)
-  * [Dfyn](general/supported-protocols/dfyn.md)
-  * [Curve Finance](general/supported-protocols/curve-finance.md)
-  * [Convex Finance](general/supported-protocols/convex-finance.md)
-  * [Compound Finance](general/supported-protocols/compound-finance.md)
-  * [Beefy Finance](general/supported-protocols/beefy-finance.md)
-  * [Balancer](general/supported-protocols/balancer.md)
-  * [Adamant Finance](general/supported-protocols/adamant-finance.md)
-  * [Aave](general/supported-protocols/aave.md)
+  * [Polycat API](general/supported-protocols/polycat.md)
+  * [Hop Exchange API](general/supported-protocols/hop-exchange-api.md)
+  * [Dinoswap API](general/supported-protocols/dinoswap-api.md)
+  * [Adamant Finance API](general/supported-protocols/adamant-finance.md)
+  * [Uniswap API](general/supported-protocols/uniswap.md)
+  * [Dfyn API](general/supported-protocols/dfyn.md)
+  * [Idex API](general/supported-protocols/idex-api.md)
+  * [Sushiswap API](general/supported-protocols/sushiswap.md)
+  * [Kyber DMM API](general/supported-protocols/kyber-dmm.md)
+  * [Balancer API](general/supported-protocols/balancer.md)
+  * [Stargate](general/supported-protocols/stargate.md)
+  * [Spookyswap](general/supported-protocols/spookyswap.md)
+  * [Spiritswap](general/supported-protocols/spiritswap.md)
+  * [Convex Finance API](general/supported-protocols/convex-finance.md)
+  * [Yearn API](general/supported-protocols/yearn.md)
 
 ## API Endpoints
 
@@ -34,10 +41,7 @@
 
 * [Domain Model](developers/domain-model/README.md)
   * [Fungible Token](developers/domain-model/fungible-token.md)
+  * [Token Information](developers/domain-model/token-information.md)
   * [Pooling Market](developers/domain-model/pooling-market.md)
   * [Staking Market](developers/domain-model/staking-market.md)
   * [Lending Market](developers/domain-model/lending-market.md)
-
-***
-
-* [Token Information](token-information.md)

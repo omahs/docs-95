@@ -12,29 +12,29 @@ It unifies all concepts of lending, borrowing, vaults, farming and staking to ea
 
 We support a variety of different protocols, some partially and some fully.&#x20;
 
-| Protocol                                                    | Website | Type                                           |
-| ----------------------------------------------------------- | ------- | ---------------------------------------------- |
-| [Aave](general/supported-protocols/aave.md)                 |         | [Lending](api-endpoints/lending.md), Borrowing |
-| HumanDAO                                                    |         | [Farming](api-endpoints/farming.md)            |
-| [Curve](general/supported-protocols/curve-finance.md)       |         | Pooling, [Farming](api-endpoints/farming.md)   |
-| [MStable](general/supported-protocols/mstable.md)           |         | [Lending](api-endpoints/lending.md)            |
-| [Compound](general/supported-protocols/compound-finance.md) |         | [Lending](api-endpoints/lending.md), Borrowing |
-| [Beefy](general/supported-protocols/beefy-finance.md)       |         | [Farming](api-endpoints/farming.md)            |
-| [Quickswap](general/supported-protocols/quickswap.md)       |         | Pooling, [Farming](api-endpoints/farming.md)   |
-| [Polycat](general/supported-protocols/polycat.md)           |         | [Farming](api-endpoints/farming.md)            |
-| Hop Exchange                                                |         | Pooling, [Farming](api-endpoints/farming.md)   |
-| Dinoswap                                                    |         | [Farming](api-endpoints/farming.md)            |
-| [Adamant](general/supported-protocols/adamant-finance.md)   |         | [Farming](api-endpoints/farming.md)            |
-| [Uniswap](general/supported-protocols/uniswap.md)           |         | Pooling                                        |
-| [Dfyn](general/supported-protocols/dfyn.md)                 |         | Pooling                                        |
-| Idex                                                        |         | Pooling, [Farming](api-endpoints/farming.md)   |
-| [Sushiswap](general/supported-protocols/sushiswap.md)       |         | Pooling, [Farming](api-endpoints/farming.md)   |
-| [Kyber (DMM)](general/supported-protocols/kyber-dmm.md)     |         | Pooling, [Farming](api-endpoints/farming.md)   |
-| [Balancer](general/supported-protocols/balancer.md)         |         | Pooling, [Farming](api-endpoints/farming.md)   |
-| Stargate                                                    |         | [Farming](api-endpoints/farming.md)            |
-| Spooky                                                      |         | Pooling, [Farming](api-endpoints/farming.md)   |
-| Spiritswap                                                  |         | Pooling, [Farming](api-endpoints/farming.md)   |
-| [Convex](general/supported-protocols/convex-finance.md)     |         | [Farming](api-endpoints/farming.md)            |
+| Protocol                                                        | Website | Type                                           |
+| --------------------------------------------------------------- | ------- | ---------------------------------------------- |
+| [Aave](general/supported-protocols/aave.md)                     |         | [Lending](api-endpoints/lending.md), Borrowing |
+| HumanDAO                                                        |         | [Farming](api-endpoints/farming.md)            |
+| [Curve](general/supported-protocols/curve-finance.md)           |         | Pooling, [Farming](api-endpoints/farming.md)   |
+| [MStable](general/supported-protocols/mstable.md)               |         | [Lending](api-endpoints/lending.md)            |
+| [Compound](general/supported-protocols/compound-finance.md)     |         | [Lending](api-endpoints/lending.md), Borrowing |
+| [Beefy](general/supported-protocols/beefy-finance.md)           |         | [Farming](api-endpoints/farming.md)            |
+| [Quickswap](general/supported-protocols/quickswap.md)           |         | Pooling, [Farming](api-endpoints/farming.md)   |
+| [Polycat](general/supported-protocols/polycat.md)               |         | [Farming](api-endpoints/farming.md)            |
+| [Hop Exchange](general/supported-protocols/hop-exchange-api.md) |         | Pooling, [Farming](api-endpoints/farming.md)   |
+| [Dinoswap](general/supported-protocols/dinoswap-api.md)         |         | [Farming](api-endpoints/farming.md)            |
+| [Adamant](general/supported-protocols/adamant-finance.md)       |         | [Farming](api-endpoints/farming.md)            |
+| [Uniswap](general/supported-protocols/uniswap.md)               |         | Pooling                                        |
+| [Dfyn](general/supported-protocols/dfyn.md)                     |         | Pooling                                        |
+| [Idex](general/supported-protocols/idex-api.md)                 |         | Pooling, [Farming](api-endpoints/farming.md)   |
+| [Sushiswap](general/supported-protocols/sushiswap.md)           |         | Pooling, [Farming](api-endpoints/farming.md)   |
+| [Kyber (DMM)](general/supported-protocols/kyber-dmm.md)         |         | Pooling, [Farming](api-endpoints/farming.md)   |
+| [Balancer](general/supported-protocols/balancer.md)             |         | Pooling, [Farming](api-endpoints/farming.md)   |
+| Stargate                                                        |         | [Farming](api-endpoints/farming.md)            |
+| Spooky                                                          |         | Pooling, [Farming](api-endpoints/farming.md)   |
+| Spiritswap                                                      |         | Pooling, [Farming](api-endpoints/farming.md)   |
+| [Convex](general/supported-protocols/convex-finance.md)         |         | [Farming](api-endpoints/farming.md)            |
 
 ## What are we currently focusing on?
 
