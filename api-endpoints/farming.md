@@ -9,8 +9,6 @@ Our definition of farming is any one of the following:
 * Liquidity Mining
 * General Farming
 
-### Farming Markets
-
 ### Fetching all supported markets for a specific protocol
 
 Return a list of Farming Markets, which contain information about which tokens can be put in a vault/farm on a specific platform. It often returns the APR, which is the rate you get for providing your assets to the lending pool. Depending on the type of pool (autocompounding like Beefy Finance), the APR is the APY.&#x20;

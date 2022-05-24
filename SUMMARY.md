@@ -28,3 +28,4 @@
 * [🪙 ERC20](api-endpoints/erc20.md)
 * [🏦 Lending Markets](api-endpoints/lending.md)
 * [🐄 Farming Markets](api-endpoints/farming.md)
+* [🏊♂ Pooling Markets](api-endpoints/pooling-markets.md)
