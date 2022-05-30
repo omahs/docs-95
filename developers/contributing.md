@@ -2,6 +2,14 @@
 
 So you're a developer and would like to contribute to Defitrack? Entirely possible! Defitrack could be the ideal way for developers who are into JVM languages (Like Kotlin and Java) to learn about Defi and Web3 in general.
 
+## Building the project
+
+You can build the entire project by running the following command. This requires maven and java 8+. You can also use the included maven wrapper. Please make sure the code successfully builds before requesting a review.
+
+```
+./mvnw clean install
+```
+
 ## Adding a new market
 
 Adding a new market is a pretty straightforward endeavour. First, head over to our [github.](https://github.com/defitrack) [Defitrack Core](https://github.com/defitrack/defitrack-core) is the code that powers the API. It contains all code specific to [protocols](https://github.com/defitrack/defitrack-core/tree/main/defitrack-protocols) and [networks](https://github.com/defitrack/defitrack-core/tree/main/defitrack-blockchains). Furthermore, it contains rest APIs for [each and every supported protocol, as well as a few generic features (like prices, erc20, abi, etc...)](https://github.com/defitrack/defitrack-core/tree/main/defitrack-rest).&#x20;
