@@ -9,7 +9,8 @@ description: The current implementation and roadmap for the Aave V2 and Aave V3 
 | Feature                | Support                                 |
 | ---------------------- | --------------------------------------- |
 | V2 Lending Markets     | ✅                                       |
-| V2 Lending Positions   |                                         |
+| V2 Lending Positions   | ✅                                       |
+| V2 Borrowing Markets   | ✅                                       |
 | V2 Borrowing Positions | ✅                                       |
 | Staking Rewards        | [❌](https://emojipedia.org/cross-mark/) |
 
@@ -17,6 +18,8 @@ description: The current implementation and roadmap for the Aave V2 and Aave V3 
 
 | Feature                | Support |
 | ---------------------- | ------- |
+| V2 Lending Markets     | ✅       |
+| V2 Borrowing Markets   | ✅       |
 | V2 Lending Positions   | ✅       |
 | V2 Borrowing Positions | ✅       |
 
