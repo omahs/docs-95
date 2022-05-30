@@ -39,6 +39,7 @@
 
 ## Developers
 
+* [Contributing](developers/contributing.md)
 * [Domain Model](developers/domain-model/README.md)
   * [Fungible Token](developers/domain-model/fungible-token.md)
   * [Token Information](developers/domain-model/token-information.md)
