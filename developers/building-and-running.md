@@ -27,3 +27,13 @@ We also added a convenient script to run a specific microservice. You can run it
 Just replace **aave** by the protocol you wish to spin up a microservice for.
 
 There's no need to deploy any other service. Your protocol service will automatically connect to the live environment to fetch more data.
+
+## Testing out the running service
+
+By default, the application will start up at **port 8081.** You can simply navigate to the following url to see if the service is running.
+
+```
+http://localhost:8081/actuator/health
+```
+
+You can then try out the different apis, like fetching [lending markets](../api-endpoints/lending.md), [pooling markets](../api-endpoints/pooling-markets.md) or [farming markets](../api-endpoints/farming.md), depending on which microservice you've deployed.
