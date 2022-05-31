@@ -2,6 +2,14 @@
 
 So you're a developer and would like to contribute to Defitrack? Entirely possible! Defitrack could be the ideal way for developers who are into JVM languages (Like Kotlin and Java) to learn about Defi and Web3 in general.
 
+## Java vs Kotlin
+
+When contributing, we opt for developers to use the [Kotlin Programming Language](https://kotlinlang.org/). However, should you not be proficient in Kotlin, but have a strong base in Java, we allow java contributions. We realize a lot of developers have years of hand on experience in JVM, with Java being the main programming language of these developers.&#x20;
+
+We appreciate any contribution to the general defitrack api. It's possible your Java code might get refactored to Kotlin in the future, but we much more value your contribution than being Kotlin purebreds.&#x20;
+
+All we ask is to adhere to the existing interfaces defined in the [domain model section](domain-model/).
+
 ## Adding a new market
 
 Adding a new market is a pretty straightforward endeavour. First, head over to our [github.](https://github.com/defitrack) [Defitrack Core](https://github.com/defitrack/defitrack-core) is the code that powers the API. It contains all code specific to [protocols](https://github.com/defitrack/defitrack-core/tree/main/defitrack-protocols) and [networks](https://github.com/defitrack/defitrack-core/tree/main/defitrack-blockchains). Furthermore, it contains rest APIs for [each and every supported protocol, as well as a few generic features (like prices, erc20, abi, etc...)](https://github.com/defitrack/defitrack-core/tree/main/defitrack-rest).&#x20;
