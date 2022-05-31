@@ -41,7 +41,8 @@
 
 * [Discord](https://discord.gg/stA5cN69sZ)
 * [Building and Running](developers/building-and-running.md)
-* [Contribution Guide](developers/contribution-guide.md)
+* [Contribution Guide](developers/contribution-guide/README.md)
+  * [Adding New Markets](developers/contribution-guide/adding-new-markets.md)
 * [Domain Model](developers/domain-model/README.md)
   * [Fungible Token](developers/domain-model/fungible-token.md)
   * [Token Information](developers/domain-model/token-information.md)

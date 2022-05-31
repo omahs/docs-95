@@ -1,16 +1,4 @@
-# Contribution Guide
-
-So you're a developer and would like to contribute to Defitrack? Entirely possible! Defitrack could be the ideal way for developers who are into JVM languages (Like Kotlin and Java) to learn about Defi and Web3 in general.
-
-If you have any questions, feel free to reach out in our [developer channel on our fresh discord](https://discord.gg/stA5cN69sZ).&#x20;
-
-## Java vs Kotlin
-
-When contributing, we opt for developers to use the [Kotlin Programming Language](https://kotlinlang.org/). However, should you not be proficient in Kotlin, but have a strong base in Java, we allow java contributions. We realize a lot of developers have years of hand on experience in JVM, with Java being the main programming language of these developers.&#x20;
-
-We appreciate any contribution to the general defitrack api. It's possible your Java code might get refactored to Kotlin in the future, but we much more value your contribution than being Kotlin purebreds.&#x20;
-
-All we ask is to adhere to the existing interfaces defined in the [domain model section](domain-model/).
+# Adding New Markets
 
 ## Adding a new market
 
@@ -20,7 +8,7 @@ Adding a new market, be it Lending, Pooling or Farming, consists of following th
 
 ### Fork the repository
 
-![](../.gitbook/assets/Screenshot\_20220530\_092551.png)
+![](../../.gitbook/assets/Screenshot\_20220530\_092551.png)
 
 First off, fork the repository. You'll work by creating a fork, working on said fork and creating a pull request. We'll review the changes and will work together, in an async fashion towards a solution.
 
@@ -28,7 +16,7 @@ We'd love it if you could star the repo in the meantime in order to get more eye
 
 ### Adding a new protocol (optional)&#x20;
 
-A protocol is an application or Defi native protocol, like [compound](https://compound.finance/), [uniswap](https://uniswap.org/) or [beefy finance](https://beefy.finance/). Markets always belong to protocols. If the protocol you want to add does not exist in defitrack yet, you'll have to add it. Currently supported protocols can be found on our [roadmap](../general/supported-protocols/).
+A protocol is an application or Defi native protocol, like [compound](https://compound.finance/), [uniswap](https://uniswap.org/) or [beefy finance](https://beefy.finance/). Markets always belong to protocols. If the protocol you want to add does not exist in defitrack yet, you'll have to add it. Currently supported protocols can be found on our [roadmap](../../general/supported-protocols/).
 
 You can look at the examples under [**defitrack-protocols**](https://github.com/defitrack/defitrack-core/tree/main/defitrack-protocols) to get a feel of the existing structure. The core code of the specific protocol belongs here. Contract calls or graph protocol fetching is what needs to be added here. Don't forget to add the protocol to [**defitrack-protocol/protocol-dependencies**/**pom.xml**](https://github.com/defitrack/defitrack-core/tree/main/defitrack-protocols/protocol-dependencies/pom.xml)**.**&#x20;
 
@@ -45,5 +33,3 @@ If you'd like to add new Farming markets, like the ones on [Dinoswap](https://gi
 ### **Adding Lending Markets**
 
 If you'd like to add new Lending markets, like the ones on [Compound](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-protocol-services/defitrack-compound/src/main/java/io/defitrack/protocol/compound/lending/CompoundLendingMarketService.kt) or [Aave](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-protocol-services/defitrack-aave/src/main/java/io/defitrack/protocol/aave/v3/lending/market/AaveV3OptimismLendingMarketProvider.kt), you'll need to create a new implementation of **** [**LendingMarketService**](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-api/src/main/java/io/defitrack/lending/LendingMarketService.kt)**.**&#x20;
-
-****
