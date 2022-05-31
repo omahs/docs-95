@@ -39,6 +39,7 @@
 
 ## Developers
 
+* [Building and Running](developers/building-and-running.md)
 * [Contributing](developers/contributing.md)
 * [Domain Model](developers/domain-model/README.md)
   * [Fungible Token](developers/domain-model/fungible-token.md)
