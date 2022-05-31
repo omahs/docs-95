@@ -26,7 +26,9 @@ We also added a convenient script to run a specific microservice. You can run it
 
 Just replace **aave** by the protocol you wish to spin up a microservice for.
 
-There's no need to deploy any other service. Your protocol service will automatically connect to the live environment to fetch more data.
+There's no need to deploy any other service. Your protocol service will automatically connect to the live environment to fetch more data. You'll see the application populating its markets at startup.
+
+![Populating caches might take up to a few minutes, depending on the amount of markets.](<../.gitbook/assets/Screenshot\_20220531\_134904 (1).png>)
 
 ## Testing out the running service
 
