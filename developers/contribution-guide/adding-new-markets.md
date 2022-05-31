@@ -1,7 +1,5 @@
 # Adding New Markets
 
-## Adding a new market
-
 Adding a new market is a pretty straightforward endeavor. First, head over to our [github.](https://github.com/defitrack) [Defitrack Core](https://github.com/defitrack/defitrack-core) is the code that powers the API. It contains all code specific to [protocols](https://github.com/defitrack/defitrack-core/tree/main/defitrack-protocols) and [networks](https://github.com/defitrack/defitrack-core/tree/main/defitrack-blockchains). Furthermore, it contains rest APIs for [each and every supported protocol, as well as a few generic features (like prices, erc20, abi, etc...)](https://github.com/defitrack/defitrack-core/tree/main/defitrack-rest).&#x20;
 
 Adding a new market, be it Lending, Pooling or Farming, consists of following these basic steps.
@@ -25,6 +23,18 @@ Next up, you'll be creating a new api microservice under [**defitrack-rest/defit
 ### Adding Pooling Markets
 
 If you'd like to add new Pooling markets, like the ones on [Curve](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-protocol-services/defitrack-curve/src/main/java/io/defitrack/protocol/curve/staking/CurveEthereumPoolingMarketService.kt) or [Uniswap](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-protocol-services/defitrack-uniswap/src/main/java/io/defitrack/protocol/uniswap/pooling/UniswapEthereumPoolingMarketService.kt), you'll need to create a new implementation of [**PoolingMarketService**](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-api/src/main/java/io/defitrack/pool/PoolingMarketService.kt)**.**&#x20;
+
+The [domain model ](../domain-model/)for [Pooling Markets](../domain-model/pooling-market.md) consists the following fields:
+
+| field    | type                                                  | description                                                                    |
+| -------- | ----------------------------------------------------- | ------------------------------------------------------------------------------ |
+| id       | string                                                | unique id per market. Make it something logical like quickwap-polygon-$address |
+| address  | string                                                | address of the LP token                                                        |
+| name     | string                                                | name of the market, like **Curve.fi DAI/USDC/USDT/PAX.**                       |
+| protocol | Protocol                                              | One of the protocols in the enum, like **CURVE**                               |
+| network  | Network                                               | One of the networks in the enum, like **POLYGON**                              |
+| tokens   | [FungibleToken](../domain-model/fungible-token.md)\[] | a list of underlying tokens                                                    |
+| apr      | Double                                                | The APR of the LP in percentage. 0.5 = 0.5%                                    |
 
 ### Adding **Farming** Markets
 

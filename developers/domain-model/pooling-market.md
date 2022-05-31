@@ -1,7 +1,7 @@
 # Pooling Market
 
 ```
-data class PoolingMarketElementVO(
+data class PoolingMarket(
     val id: String,
     val address: String,
     val name: String,
