@@ -39,6 +39,7 @@
 
 ## Developers
 
+* [Discord](https://discord.gg/stA5cN69sZ)
 * [Building and Running](developers/building-and-running.md)
 * [Contributing](developers/contributing.md)
 * [Domain Model](developers/domain-model/README.md)
