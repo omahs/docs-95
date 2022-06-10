@@ -13,3 +13,18 @@ We appreciate any contribution to the general defitrack api. It's possible your 
 All we ask is to adhere to the existing interfaces defined in the [domain model section](../domain-model/).
 
 ****
+
+## **Repositories**
+
+### **Defitrack Core**
+
+[This repository](https://github.com/defitrack/defitrack-core) contains all the code powering the API. It contains the code to interact with networks, protocols and provides abstractions of common concepts (such as [ERC20](https://github.com/defitrack/defitrack-core/tree/main/defitrack-rest/defitrack-erc20), [prices](https://github.com/defitrack/defitrack-core/tree/main/defitrack-rest/defitrack-price), [ABIs](https://github.com/defitrack/defitrack-core/tree/main/defitrack-rest/defitrack-abi))
+
+### **Defitrack Data**
+
+[This repository](https://github.com/defitrack/data) contains all data underlying data that is required to populate markets. Data that can be stored here are for example:
+
+* ABIs
+* Token lists
+* Logos
+* Contract addresses

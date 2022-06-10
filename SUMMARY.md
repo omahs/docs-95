@@ -24,9 +24,9 @@
   * [Sushiswap API](general/supported-protocols/sushiswap.md)
   * [Kyber DMM API](general/supported-protocols/kyber-dmm.md)
   * [Balancer API](general/supported-protocols/balancer.md)
-  * [Stargate API](general/supported-protocols/stargate-api.md)
-  * [Spookyswap API](general/supported-protocols/spookyswap-api.md)
-  * [Spiritswap API](general/supported-protocols/spiritswap-api.md)
+  * [Stargate API](general/supported-protocols/stargate.md)
+  * [Spookyswap API](general/supported-protocols/spookyswap.md)
+  * [Spiritswap API](general/supported-protocols/spiritswap.md)
   * [Convex Finance API](general/supported-protocols/convex-finance.md)
   * [Yearn API](general/supported-protocols/yearn.md)
 

@@ -31,9 +31,9 @@ We support a variety of different protocols, some partially and some fully.&#x20
 | [Sushiswap](general/supported-protocols/sushiswap.md)           |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md) |
 | [Kyber (DMM)](general/supported-protocols/kyber-dmm.md)         |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md) |
 | [Balancer](general/supported-protocols/balancer.md)             |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md) |
-| [Stargate](general/supported-protocols/stargate-api.md)         |         | [Farming](api-endpoints/farming.md)                                              |
-| [Spooky](general/supported-protocols/spookyswap-api.md)         |         | Pooling, [Farming](api-endpoints/farming.md)                                     |
-| [Spiritswap](general/supported-protocols/spiritswap-api.md)     |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md) |
+| [Stargate](general/supported-protocols/stargate.md)             |         | [Farming](api-endpoints/farming.md)                                              |
+| [Spooky](general/supported-protocols/spookyswap.md)             |         | Pooling, [Farming](api-endpoints/farming.md)                                     |
+| [Spiritswap](general/supported-protocols/spiritswap.md)         |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md) |
 | [Convex](general/supported-protocols/convex-finance.md)         |         | [Farming](api-endpoints/farming.md)                                              |
 | Iron Bank                                                       |         | [Lending](api-endpoints/lending.md), Borrowing                                   |
 | Apeswap                                                         |         | [Pooling](api-endpoints/pooling-markets.md)                                      |
