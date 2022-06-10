@@ -6,6 +6,8 @@
 
 * [Supported Protocols](general/supported-protocols/README.md)
   * [Aave API](general/supported-protocols/aave.md)
+  * [Iron Bank API](general/supported-protocols/iron-bank-api.md)
+  * [Apeswap API](general/supported-protocols/apeswap-api.md)
   * [HumanDAO API](general/supported-protocols/humandao-api.md)
   * [Curve Finance API](general/supported-protocols/curve-finance.md)
   * [mStable API](general/supported-protocols/mstable.md)
@@ -22,9 +24,9 @@
   * [Sushiswap API](general/supported-protocols/sushiswap.md)
   * [Kyber DMM API](general/supported-protocols/kyber-dmm.md)
   * [Balancer API](general/supported-protocols/balancer.md)
-  * [Stargate](general/supported-protocols/stargate.md)
-  * [Spookyswap](general/supported-protocols/spookyswap.md)
-  * [Spiritswap](general/supported-protocols/spiritswap.md)
+  * [Stargate API](general/supported-protocols/stargate-api.md)
+  * [Spookyswap API](general/supported-protocols/spookyswap-api.md)
+  * [Spiritswap API](general/supported-protocols/spiritswap-api.md)
   * [Convex Finance API](general/supported-protocols/convex-finance.md)
   * [Yearn API](general/supported-protocols/yearn.md)
 
