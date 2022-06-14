@@ -15,7 +15,7 @@ We support a variety of different protocols, some partially and some fully.&#x20
 | Protocol                                                        | Website | Type                                                                                      |
 | --------------------------------------------------------------- | ------- | ----------------------------------------------------------------------------------------- |
 | [Aave](general/supported-protocols/aave.md)                     |         | [Lending](api-endpoints/lending.md), Borrowing                                            |
-| HumanDAO                                                        |         | [Farming](api-endpoints/farming.md)                                                       |
+| HumanDAO                                                        |         | Claimables                                                                                |
 | [Curve](general/supported-protocols/curve-finance.md)           |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md)          |
 | [MStable](general/supported-protocols/mstable.md)               |         | [Lending](api-endpoints/lending.md)                                                       |
 | [Compound](general/supported-protocols/compound-finance.md)     |         | [Lending](api-endpoints/lending.md), Borrowing                                            |
