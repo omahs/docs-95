@@ -6,6 +6,7 @@
 
 * [Supported Protocols](general/supported-protocols/README.md)
   * [Aave API](general/supported-protocols/aave.md)
+  * [Bancor API](general/supported-protocols/bancor-api.md)
   * [Iron Bank API](general/supported-protocols/iron-bank-api.md)
   * [Apeswap API](general/supported-protocols/apeswap-api.md)
   * [HumanDAO API](general/supported-protocols/humandao-api.md)
