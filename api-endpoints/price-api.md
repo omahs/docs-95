@@ -4,6 +4,34 @@ Often times, it's required to fetch the price of a token or liquidity pool. Our 
 
 
 
+### Calculate a price of a holding
+
+{% swagger method="post" path="/price" baseUrl="https://api.defitrack.io" summary="Calculate a price using the address, network and normalized amount." %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="body" name="address" type="String" required="true" %}
+address of the token
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="network" type="Network" required="true" %}
+Network the token resides on
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="amount" type="BigDecimal" required="true" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Value as BigDecimal" %}
+```javascript
+1192.9403494808796
+```
+{% endswagger-response %}
+{% endswagger %}
+
+### Fetch the price of a token
+
 {% swagger method="get" path="/price/{symbol}" baseUrl="https://api.defitrack.io" summary="Fetch the price for a token symbol. Result is a BigDecimal." %}
 {% swagger-description %}
 
