@@ -45,7 +45,8 @@
 
 * [Discord](https://discord.gg/stA5cN69sZ)
 * [Building and Running](developers/building-and-running/README.md)
-  * [Defitrack Core](developers/building-and-running/defitrack-core.md)
+  * [Defitrack Core](developers/building-and-running.md)
+  * [Defitrack Showcase](developers/building-and-running/defitrack-showcase.md)
 * [Contribution Guide](developers/contribution-guide/README.md)
   * [Common Data](developers/contribution-guide/common-data.md)
   * [Common Code Snippets](developers/contribution-guide/common-code-snippets.md)
