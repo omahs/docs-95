@@ -23,6 +23,10 @@ Network the token resides on
 
 {% endswagger-parameter %}
 
+{% swagger-parameter in="header" name="Content-Type" type="String" %}
+application/json
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="Value as BigDecimal" %}
 ```javascript
 1192.9403494808796
