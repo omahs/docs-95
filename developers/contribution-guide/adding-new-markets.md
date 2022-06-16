@@ -14,11 +14,19 @@ We'd love it if you could star the repo in the meantime in order to get more eye
 
 ### Adding a new protocol (optional)&#x20;
 
+#### protocol code
+
 A protocol is an application or Defi native protocol, like [compound](https://compound.finance/), [uniswap](https://uniswap.org/) or [beefy finance](https://beefy.finance/). Markets always belong to protocols. If the protocol you want to add does not exist in defitrack yet, you'll have to add it. Currently supported protocols can be found on our [roadmap](../../general/supported-protocols/).
 
 You can look at the examples under [**defitrack-protocols**](https://github.com/defitrack/defitrack-core/tree/main/defitrack-protocols) to get a feel of the existing structure. The core code of the specific protocol belongs here. Contract calls or graph protocol fetching is what needs to be added here. Don't forget to add the protocol to [**defitrack-protocol/protocol-dependencies**/**pom.xml**](https://github.com/defitrack/defitrack-core/tree/main/defitrack-protocols/protocol-dependencies/pom.xml)**.**&#x20;
 
+#### **protocol api**
+
 Next up, you'll be creating a new api microservice under [**defitrack-rest/defitrack-protocol-services**](https://github.com/defitrack/defitrack-core/tree/main/defitrack-rest/defitrack-protocol-services)**.** You can visit the existing APIs to see what the structure and pom.xml looks like.&#x20;
+
+#### ci
+
+In order for our ci to automatically deliver a docker image containing the code, you'll have to add the protocol to **ci/protocols.txt.**
 
 ### Adding Pooling Markets
 
