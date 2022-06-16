@@ -46,6 +46,7 @@
 * [Javascript Client](clients/javascript-client/README.md)
   * [Domain](clients/javascript-client/domain/README.md)
     * [Protocol](clients/javascript-client/domain/protocol.md)
+    * [Network](clients/javascript-client/domain/network.md)
   * [Protocols](clients/javascript-client/protocols.md)
   * [Networks](clients/javascript-client/networks.md)
   * [Lending](clients/javascript-client/lending.md)
