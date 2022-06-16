@@ -28,6 +28,14 @@ Next up, you'll be creating a new api microservice under [**defitrack-rest/defit
 
 In order for our ci to automatically deliver a docker image containing the code, you'll have to add the protocol to **ci/protocols.txt.**
 
+**logo**
+
+[clone the data repository](https://github.com/defitrack/data) and add the logo of the protocol to **logos/.** Remember the name and the extension.
+
+**enumeration**
+
+Defitrack core contains an enum called **Protocol.** Add the protocol to this enum. The logo is the one you added in the previous step.
+
 ### Adding Pooling Markets
 
 If you'd like to add new Pooling markets, like the ones on [Curve](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-protocol-services/defitrack-curve/src/main/java/io/defitrack/protocol/curve/staking/CurveEthereumPoolingMarketService.kt) or [Uniswap](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-protocol-services/defitrack-uniswap/src/main/java/io/defitrack/protocol/uniswap/pooling/UniswapEthereumPoolingMarketService.kt), you'll need to create a new implementation of [**PoolingMarketService**](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-api/src/main/java/io/defitrack/pool/PoolingMarketService.kt)**.**&#x20;
