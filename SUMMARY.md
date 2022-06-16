@@ -49,9 +49,9 @@
     * [Network](clients/javascript-client/domain/network.md)
   * [Protocols](clients/javascript-client/protocols.md)
   * [Networks](clients/javascript-client/networks.md)
-  * [Lending](clients/javascript-client/lending.md)
-  * [Pooling](clients/javascript-client/pooling.md)
-  * [Farming](clients/javascript-client/farming.md)
+  * [🏦 Lending](clients/javascript-client/lending.md)
+  * [🐄 Farming](clients/javascript-client/farming.md)
+  * [🏊♂ Pooling](clients/javascript-client/pooling.md)
   * [Invest](clients/javascript-client/invest.md)
 
 ## Developers
