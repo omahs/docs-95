@@ -5,8 +5,7 @@
 In order to fetch all protocols that are supported by defitrack, the following code can be used. The result is of type **Array<**[**Protocol**](domain/protocol.md)**>.**
 
 ```
-import defitrack from "./index";
-import {Protocol} from "./protocol/protocol.model";
+import defitrack from "@defitrack/js-client";
 
-const protocols: Array<Protocol> = await defitrack.protocols().list()
+const protocols = await defitrack.protocols().list()
 ```
