@@ -47,6 +47,11 @@
   * [Domain](clients/javascript-client/domain/README.md)
     * [Protocol](clients/javascript-client/domain/protocol.md)
   * [Protocols](clients/javascript-client/protocols.md)
+  * [Networks](clients/javascript-client/networks.md)
+  * [Lending](clients/javascript-client/lending.md)
+  * [Pooling](clients/javascript-client/pooling.md)
+  * [Farming](clients/javascript-client/farming.md)
+  * [Invest](clients/javascript-client/invest.md)
 
 ## Developers
 
