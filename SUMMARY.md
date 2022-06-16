@@ -41,6 +41,13 @@
 * [🏊♂ Pooling Markets](api-endpoints/pooling-markets.md)
 * [💲 Price API](api-endpoints/price-api.md)
 
+## Clients
+
+* [Javascript Client](clients/javascript-client/README.md)
+  * [Domain](clients/javascript-client/domain/README.md)
+    * [Protocol](clients/javascript-client/domain/protocol.md)
+  * [Protocols](clients/javascript-client/protocols.md)
+
 ## Developers
 
 * [Discord](https://discord.gg/stA5cN69sZ)
