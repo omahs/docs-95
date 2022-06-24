@@ -9,7 +9,7 @@ description: >-
 
 ## &#x20;Fetch Lending Positions for a user
 
-Return a list of all lending positions for a specific user on a specific protocol. The result is of type Array\<LendingPosition>.&#x20;
+Return a list of all lending positions for a specific user on a specific protocol. The result is of type Array<[LendingPosition](../../developers/domain-model/lending/lending-position.md)>.&#x20;
 
 If the protocol does not support Lending Markets, the result will be an empty Array.&#x20;
 

@@ -75,11 +75,17 @@
   * [Common Code Snippets](developers/contribution-guide/common-code-snippets.md)
   * [Adding New Markets](developers/contribution-guide/adding-new-markets.md)
 * [Domain Model](developers/domain-model/README.md)
+  * [Farming](developers/domain-model/farming/README.md)
+    * [Farming Position](developers/domain-model/farming/farming-position.md)
+    * [Farming Market](developers/domain-model/farming/farming-market.md)
+  * [Lending](developers/domain-model/lending/README.md)
+    * [Lending Position](developers/domain-model/lending/lending-position.md)
+    * [Lending Market](developers/domain-model/lending/lending-market.md)
+  * [Pooling](developers/domain-model/pooling/README.md)
+    * [Pooling Position](developers/domain-model/pooling/pooling-position.md)
+    * [Pooling Market](developers/domain-model/pooling/pooling-market.md)
   * [Fungible Token](developers/domain-model/fungible-token.md)
   * [Token Information](developers/domain-model/token-information.md)
-  * [Pooling Market](developers/domain-model/pooling-market.md)
-  * [Staking Market](developers/domain-model/staking-market.md)
-  * [Lending Market](developers/domain-model/lending-market.md)
 
 ***
 
