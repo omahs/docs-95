@@ -38,4 +38,4 @@ By default, the application will start up at **port 8081.** You can simply navig
 http://localhost:8081/actuator/health
 ```
 
-You can then try out the different apis, like fetching [lending markets](../api-endpoints/lending/lending-markets.md), [pooling markets](../api-endpoints/pooling-markets.md) or [farming markets](../api-endpoints/farming.md), depending on which microservice you've deployed.
+You can then try out the different apis, like fetching [lending markets](../api-endpoints/lending/lending-markets.md), [pooling markets](../api-endpoints/liquidity-pools/pooling-markets.md) or [farming markets](../api-endpoints/farming/farming-markets.md), depending on which microservice you've deployed.

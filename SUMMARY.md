@@ -39,8 +39,12 @@
 * [🏦 Lending](api-endpoints/lending/README.md)
   * [💵 Lending Positions](api-endpoints/lending/lending-positions.md)
   * [🏦 Lending Markets](api-endpoints/lending/lending-markets.md)
-* [🐄 Farming Markets](api-endpoints/farming.md)
-* [🏊♂ Pooling Markets](api-endpoints/pooling-markets.md)
+* [🤠 Farming](api-endpoints/farming/README.md)
+  * [🧑🌾 Farming Positions](api-endpoints/farming/farming-positions.md)
+  * [🐄 Farming Markets](api-endpoints/farming/farming-markets.md)
+* [🌊 Liquidity Pools](api-endpoints/liquidity-pools/README.md)
+  * [🩱 Pooling Positions](api-endpoints/liquidity-pools/pooling-positions.md)
+  * [🏊♂ Pooling Markets](api-endpoints/liquidity-pools/pooling-markets.md)
 * [💲 Price API](api-endpoints/price-api.md)
 
 ## Clients

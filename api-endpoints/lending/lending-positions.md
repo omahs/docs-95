@@ -9,6 +9,10 @@ description: >-
 
 ## &#x20;Fetch Lending Positions for a user
 
+Return a list of all lending positions for a specific user on a specific protocol. The result is of type Array\<LendingPosition>.&#x20;
+
+If the protocol does not support Lending Markets, the result will be an empty Array.&#x20;
+
 {% swagger method="get" path="/{protocol}/lending/{address}/positions" baseUrl="https://api.defitrack.io" summary="Get the lending positions pertaining to a specific user for a specific protocol" %}
 {% swagger-description %}
 
