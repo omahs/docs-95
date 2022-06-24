@@ -50,18 +50,20 @@
 ## Clients
 
 * [Javascript Client](clients/javascript-client/README.md)
+  * [Integration Guide](clients/javascript-client/integration-guide.md)
+  * [Minimal Example](clients/javascript-client/minimal-example.md)
+  * [Protocols](clients/javascript-client/protocols.md)
+  * [Networks](clients/javascript-client/networks.md)
+  * [🏦 Lending](clients/javascript-client/lending.md)
+  * [🐄 Farming](clients/javascript-client/farming.md)
+  * [🏊♂ Pooling](clients/javascript-client/pooling.md)
+  * [🦺 Invest](clients/javascript-client/invest.md)
   * [Domain](clients/javascript-client/domain/README.md)
     * [Protocol](clients/javascript-client/domain/protocol.md)
     * [Network](clients/javascript-client/domain/network.md)
     * [LendingMarket](clients/javascript-client/domain/lendingmarket.md)
     * [FarmingMarket](clients/javascript-client/domain/farmingmarket.md)
     * [PoolingMarket](clients/javascript-client/domain/poolingmarket.md)
-  * [Protocols](clients/javascript-client/protocols.md)
-  * [Networks](clients/javascript-client/networks.md)
-  * [🏦 Lending](clients/javascript-client/lending.md)
-  * [🐄 Farming](clients/javascript-client/farming.md)
-  * [🏊♂ Pooling](clients/javascript-client/pooling.md)
-  * [Invest](clients/javascript-client/invest.md)
 
 ## Developers
 
@@ -77,13 +79,13 @@
 * [Domain Model](developers/domain-model/README.md)
   * [Farming](developers/domain-model/farming/README.md)
     * [Farming Position](developers/domain-model/farming/farming-position.md)
-    * [Farming Market](developers/domain-model/farming/farming-market.md)
+    * [Farming Market](developers/domain-model/staking-market.md)
   * [Lending](developers/domain-model/lending/README.md)
     * [Lending Position](developers/domain-model/lending/lending-position.md)
-    * [Lending Market](developers/domain-model/lending/lending-market.md)
+    * [Lending Market](developers/domain-model/lending-market.md)
   * [Pooling](developers/domain-model/pooling/README.md)
     * [Pooling Position](developers/domain-model/pooling/pooling-position.md)
-    * [Pooling Market](developers/domain-model/pooling/pooling-market.md)
+    * [Pooling Market](developers/domain-model/pooling-market.md)
   * [Fungible Token](developers/domain-model/fungible-token.md)
   * [Token Information](developers/domain-model/token-information.md)
 

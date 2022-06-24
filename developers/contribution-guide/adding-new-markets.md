@@ -40,7 +40,7 @@ Defitrack core contains an enum called **Protocol.** Add the protocol to this en
 
 If you'd like to add new Pooling markets, like the ones on [Curve](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-protocol-services/defitrack-curve/src/main/java/io/defitrack/protocol/curve/staking/CurveEthereumPoolingMarketService.kt) or [Uniswap](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-protocol-services/defitrack-uniswap/src/main/java/io/defitrack/protocol/uniswap/pooling/UniswapEthereumPoolingMarketService.kt), you'll need to create a new implementation of [**PoolingMarketService**](https://github.com/defitrack/defitrack-core/blob/main/defitrack-rest/defitrack-api/src/main/java/io/defitrack/pool/PoolingMarketService.kt)**.**&#x20;
 
-The [domain model ](../domain-model/)for [Pooling Markets](../domain-model/pooling/pooling-market.md) consists the following fields:
+The [domain model ](../domain-model/)for [Pooling Markets](../domain-model/pooling-market.md) consists the following fields:
 
 | field    | type                                                  | description                                                                    |
 | -------- | ----------------------------------------------------- | ------------------------------------------------------------------------------ |
