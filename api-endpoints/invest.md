@@ -10,7 +10,7 @@ description: >-
 
 Preparing an investment will create prepared transactions. If the protocol and underlying farm/lending pool/liquidity pool support it, one or more transactions will be prepared. Often times, the first transaction is an approval transaction.&#x20;
 
-{% swagger method="post" path="/beefy/{markettype}/markets/{marketId}/enter" baseUrl="https://api.defitrack.io" summary="Prepare an investment. Returns a list of prepared transactions that need to be signed. " %}
+{% swagger method="post" path="/{protocol}/{markettype}/markets/{marketId}/enter" baseUrl="https://api.defitrack.io" summary="Prepare an investment. Returns a list of prepared transactions that need to be signed. " %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -21,6 +21,10 @@ one of [farming, lending, pooling]
 
 {% swagger-parameter in="path" name="marketId" type="string" required="true" %}
 id of the underlying market
+{% endswagger-parameter %}
+
+{% swagger-parameter in="path" name="protocol" type="string" required="true" %}
+slug of a protocol
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Example of Aave Enter Response" %}

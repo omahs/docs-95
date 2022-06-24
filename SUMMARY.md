@@ -46,6 +46,7 @@
   * [🩱 Pooling Positions](api-endpoints/liquidity-pools/pooling-positions.md)
   * [🏊♂ Pooling Markets](api-endpoints/pooling-markets.md)
 * [💲 Price API](api-endpoints/price-api.md)
+* [🦺 Invest](api-endpoints/invest.md)
 
 ## Clients
 
@@ -57,7 +58,6 @@
   * [🏦 Lending](clients/javascript-client/lending.md)
   * [🐄 Farming](clients/javascript-client/farming.md)
   * [🏊♂ Pooling](clients/javascript-client/pooling.md)
-  * [🦺 Invest](clients/javascript-client/invest.md)
   * [Domain](clients/javascript-client/domain/README.md)
     * [Protocol](clients/javascript-client/domain/protocol.md)
     * [Network](clients/javascript-client/domain/network.md)
