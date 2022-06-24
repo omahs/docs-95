@@ -22,7 +22,7 @@ If the protocol does not support Lending Markets, the result will be an empty Ar
 Slug of a protocol. Ex: compound
 {% endswagger-parameter %}
 
-{% swagger-parameter in="path" name="address" type="string" %}
+{% swagger-parameter in="path" name="address" type="string" required="true" %}
 wallet address
 {% endswagger-parameter %}
 

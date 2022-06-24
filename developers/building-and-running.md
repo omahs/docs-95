@@ -2,7 +2,7 @@
 description: A quick intro on how to build and run each module.
 ---
 
-# Defitrack Core
+# Building and Running
 
 ## Building the project
 
