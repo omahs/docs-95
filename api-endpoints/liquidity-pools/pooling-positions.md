@@ -9,7 +9,7 @@ description: >-
 
 ## Fetch Pooling Positions for a user
 
-Return a list of all pooling positions for a specific user on a specific protocol. The result is of type Array\<PoolingPosition>.&#x20;
+Return a list of all pooling positions for a specific user on a specific protocol. The result is of type Array<[PoolingPosition](../../developers/domain-model/pooling/pooling-position.md)>.&#x20;
 
 If the protocol does not support Pooling Markets, the result will be an empty Array.&#x20;
 

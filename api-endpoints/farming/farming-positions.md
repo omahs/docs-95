@@ -9,7 +9,7 @@ description: >-
 
 ## Fetch Farming Positions for a user
 
-Return a list of all pooling positions for a specific user on a specific protocol. The result is of type Array\<FarmingPosition>.&#x20;
+Return a list of all pooling positions for a specific user on a specific protocol. The result is of type Array<[FarmingPosition](../../developers/domain-model/farming/farming-position.md)>.&#x20;
 
 If the protocol does not support Farming Markets, the result will be an empty Array.&#x20;
 
