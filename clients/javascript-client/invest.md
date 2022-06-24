@@ -6,7 +6,7 @@ description: >-
 
 # 🦺 Invest
 
-### Prepare an investment
+### Prepare an investment / Enter a market
 
 Preparing an investment will create prepared transactions. If the protocol and underlying farm/lending pool/liquidity pool support it, one or more transactions will be prepared. Often times, the first transaction is an approval transaction.&#x20;
 
@@ -51,8 +51,3 @@ id of the underlying market
 ```
 {% endswagger-response %}
 {% endswagger %}
-
-{% hint style="info" %}
-coming soon
-{% endhint %}
-
