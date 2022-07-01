@@ -63,8 +63,11 @@
     * [Protocol](clients/javascript-client/domain/protocol.md)
     * [Network](clients/javascript-client/domain/network.md)
     * [LendingMarket](clients/javascript-client/domain/lendingmarket.md)
+    * [LendingPosition](clients/javascript-client/domain/lendingposition.md)
     * [FarmingMarket](clients/javascript-client/domain/farmingmarket.md)
+    * [FarmingPosition](clients/javascript-client/domain/farmingposition.md)
     * [PoolingMarket](clients/javascript-client/domain/poolingmarket.md)
+    * [PoolingPosition](clients/javascript-client/domain/poolingposition.md)
 
 ## Developers
 
