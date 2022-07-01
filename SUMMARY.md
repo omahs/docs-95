@@ -62,6 +62,7 @@
   * [Domain](clients/javascript-client/domain/README.md)
     * [Protocol](clients/javascript-client/domain/protocol.md)
     * [Network](clients/javascript-client/domain/network.md)
+    * [TokenInformation](clients/javascript-client/domain/tokeninformation.md)
     * [LendingMarket](clients/javascript-client/domain/lendingmarket.md)
     * [LendingPosition](clients/javascript-client/domain/lendingposition.md)
     * [FarmingMarket](clients/javascript-client/domain/farmingmarket.md)
