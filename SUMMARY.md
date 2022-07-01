@@ -55,6 +55,7 @@
   * [Minimal Example](clients/javascript-client/minimal-example.md)
   * [Protocols](clients/javascript-client/protocols.md)
   * [Networks](clients/javascript-client/networks.md)
+  * [🪙 ERC20](clients/javascript-client/erc20.md)
   * [🏦 Lending](clients/javascript-client/lending.md)
   * [🐄 Farming](clients/javascript-client/farming.md)
   * [🏊♂ Pooling](clients/javascript-client/pooling.md)

@@ -14,5 +14,10 @@ import defitrack from "@defitrack/js-client";
 const markets = await defitrack.pooling().markets("balancer")
 ```
 
+### Get user positions for by protocol
 
+```
+import defitrack from "@defitrack/js-client";
 
+const positions: Array<LendingPosition> = await defitrack.pooling().positions("curve","0x715beae184768766c65d8ed4aa6d1f6893efb542");
+```
