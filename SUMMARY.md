@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What is Defitrack?](README.md)
+* [What is Decentrifi Defi Hub?](README.md)
 
 ## General
 
