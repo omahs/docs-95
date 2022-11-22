@@ -9,19 +9,19 @@ description: Installing the package as a dependency of your project.
 Using npm:
 
 ```
-npm install @defitrack/js-client
+npm install @decentri.fi/defi-hub
 ```
 
 Using bower:&#x20;
 
 ```
-bower install @defitrack/js-client
+bower install @decentri.fi/defi-hub
 ```
 
 Using yarn:
 
 ```
-yarn add @defitrack/js-client
+yarn add @decentri.fi/defi-hub
 ```
 
 
