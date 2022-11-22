@@ -9,15 +9,15 @@ If the protocol does not support pooling markets, an empty array will be returne
 {% endhint %}
 
 ```
-import defitrack from "@defitrack/js-client";
+import defihub from "@decentri.fi/defi-hub";
 
-const markets = await defitrack.pooling().markets("balancer")
+const markets = await defihub.pooling().markets("balancer")
 ```
 
 ### Get user positions for by protocol
 
 ```
-import defitrack from "@defitrack/js-client";
+import defihub from "@defitrack/js-client";
 
-const positions: Array<LendingPosition> = await defitrack.pooling().positions("curve","0x715beae184768766c65d8ed4aa6d1f6893efb542");
+const positions: Array<LendingPosition> = await defihub.pooling().positions("curve","0x715beae184768766c65d8ed4aa6d1f6893efb542");
 ```

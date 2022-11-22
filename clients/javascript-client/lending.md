@@ -9,15 +9,15 @@ If the protocol does not support lending markets, an empty array will be returne
 {% endhint %}
 
 ```
-import defitrack from "@defitrack/js-client";
+import defihub from "@decentri.fi/defi-hub";
 
-const markets = await defitrack.lending().markets("aave")
+const markets = await defihub.lending().markets("aave")
 ```
 
 ### Get user positions for by protocol
 
 ```
-import defitrack from "@defitrack/js-client";
+import defihub from "@decentri.fi/defi-hub";
 
-const positions: Array<LendingPosition> = await defitrack.lending().positions("aave","0x715beae184768766c65d8ed4aa6d1f6893efb542");
+const positions: Array<LendingPosition> = await defihub.lending().positions("aave","0x715beae184768766c65d8ed4aa6d1f6893efb542");
 ```
