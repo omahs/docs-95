@@ -1,5 +1,5 @@
 ---
-description: A little example of using defitrack defi hub's javascript client.
+description: A little example of using Decentrifi's defi hub's javascript client.
 ---
 
 # Minimal Example
@@ -7,14 +7,14 @@ description: A little example of using defitrack defi hub's javascript client.
 ### Import the package
 
 ```
-import defitrack from '@defitrack/js-client'
+import defihub from '@decentri.fi/defi-hub'
 ```
 
 ### Printing all the supported protocols
 
 ```
 export const printProtocols = async () => {
-    const protocols = await defitrack.protocols().list();
+    const protocols = await defihub.protocols().list();
     console.log(protocols);
 }
 
