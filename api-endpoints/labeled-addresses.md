@@ -16,7 +16,7 @@ Blockchain address
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Returns a label related to the address" %}
-```
+```json
 {
    address: "0x3cc936b795a188f0e246cbb2d74c5bd190aecf18",
    tag: "Mexc.com 3"
