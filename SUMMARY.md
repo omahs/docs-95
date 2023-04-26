@@ -35,6 +35,7 @@
 ## API Endpoints
 
 * [🏷 Labeled Addresses](api-endpoints/labeled-addresses.md)
+* [🔗 ENS](api-endpoints/ens.md)
 * [👩💻 Event Decoders](api-endpoints/event-decoders.md)
 * [🦕 Protocols](api-endpoints/protocols.md)
 * [📶 Networks](api-endpoints/networks.md)
