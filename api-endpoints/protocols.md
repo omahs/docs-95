@@ -1,3 +1,9 @@
+---
+description: >-
+  Decentrifi supports more than 48 different protocols. In order to get all the
+  protocols it supports, you can use the following endpoints.
+---
+
 # 🦕 Protocols
 
 {% swagger method="get" path="/protocols" baseUrl="https://api.defitrack.io" summary="Retrieve all protocols" %}
