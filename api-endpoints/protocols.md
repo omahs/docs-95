@@ -1,102 +1,464 @@
-# Protocols
+# 🦕 Protocols
 
 {% swagger method="get" path="/protocols" baseUrl="https://api.defitrack.io" summary="Retrieve all protocols" %}
 {% swagger-description %}
-Returns all protocols (a generalization of applications, smart contracts and companies) supported by Defitrack.
+Returns all protocols (a generalization of applications, smart contracts and companies) supported by Decentrifi.
 {% endswagger-description %}
 
-{% swagger-response status="200: OK" description="" %}
-```javascript
+{% swagger-response status="200: OK" description="All " %}
+```json
 [
    {
+      "name":"BLUR",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/blur.png",
+      "slug":"blur",
+      "primitives":[
+         "POOLING"
+      ],
+      "website":"https://blur.io"
+   },
+   {
+      "name":"TORNADO_CASH",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/tornado.png",
+      "slug":"tornadocash",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://tornadocash.eth.link"
+   },
+   {
+      "name":"CAMELOT",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/camelot.png",
+      "slug":"camelot",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://camelot.exchange//"
+   },
+   {
+      "name":"STARGATE",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/stargate.svg",
+      "slug":"stargate",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://stargate.finance"
+   },
+   {
+      "name":"SOLIDLIZARD",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/solidlizard.png",
+      "slug":"solidlizard",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://solidlizard.finance"
+   },
+   {
+      "name":"COWSWAP",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/cowswap.png",
+      "slug":"cowswap",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://cow.fi"
+   },
+   {
+      "name":"AURA",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/aura.jpeg",
+      "slug":"aura",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://aura.finance"
+   },
+   {
+      "name":"LIDO",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/lido.png",
+      "slug":"lido",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://lido.fi/"
+   },
+   {
+      "name":"VELODROME",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/velodrome.svg",
+      "slug":"velodrome",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://app.velodrome.finance"
+   },
+   {
+      "name":"SWAPFISH",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/swapfish.png",
+      "slug":"swapfish",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://swapfish.fi"
+   },
+   {
+      "name":"POOLTOGETHER",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/pooltogether.jpg",
+      "slug":"pooltogether",
+      "primitives":[
+         "POOLING"
+      ],
+      "website":"https://pooltogether.com"
+   },
+   {
+      "name":"QIDAO",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/qidao.png",
+      "slug":"qidao",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://mai.finance"
+   },
+   {
+      "name":"TOKEMAK",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/tokemak.png",
+      "slug":"tokemak",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://tokemak.xyz"
+   },
+   {
+      "name":"CHAINLINK",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/chainlink.png",
+      "slug":"chainlink",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://chain.link"
+   },
+   {
+      "name":"OLYMPUSDAO",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/olympusdao.png",
+      "slug":"olympusdao",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://www.olympusdao.finance"
+   },
+   {
+      "name":"BEETHOVENX",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/beethovenx.png",
+      "slug":"beethovenx",
+      "primitives":[
+         "FARMING",
+         "POOLING"
+      ],
+      "website":"https://beets.fi"
+   },
+   {
+      "name":"SET",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/set.png",
+      "slug":"set",
+      "primitives":[
+         "POOLING"
+      ],
+      "website":"https://setprotocol.com"
+   },
+   {
+      "name":"WEPIGGY",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/wepiggy.png",
+      "slug":"wepiggy",
+      "primitives":[
+         "LENDING"
+      ],
+      "website":"https://wepiggy.com"
+   },
+   {
+      "name":"AELIN",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/aelin.jpeg",
+      "slug":"aelin",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://aelin.xyz"
+   },
+   {
+      "name":"BANCOR",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/bancor.png",
+      "slug":"bancor",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://bancor.network"
+   },
+   {
+      "name":"POLYGON",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/polygon.png",
+      "slug":"polygon-protocol",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://polygon.technology"
+   },
+   {
+      "name":"IRON_BANK",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/iron-bank.png",
+      "slug":"iron-bank",
+      "primitives":[
+         "LENDING",
+         "BORROWING"
+      ],
+      "website":"https://ib.xyz/"
+   },
+   {
       "name":"AAVE",
-      "logo":"https://static.defitrack.io/images/protocols/aave.png",
-      "slug":"aave"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/aave.png",
+      "slug":"aave",
+      "primitives":[
+         "LENDING",
+         "BORROWING",
+         "FARMING",
+         "POOLING"
+      ],
+      "website":"https://aave.com/"
    },
    {
       "name":"HUMANDAO",
-      "logo":"https://static.defitrack.io/images/protocols/humandao.jpg",
-      "slug":"humandao"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/humandao.jpg",
+      "slug":"humandao",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://humandao.org/"
    },
    {
       "name":"CURVE",
-      "logo":"https://static.defitrack.io/images/protocols/curve.png",
-      "slug":"curve"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/curve.png",
+      "slug":"curve",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://curve.fi"
    },
    {
       "name":"MSTABLE",
-      "logo":"https://static.defitrack.io/images/protocols/mstable.png",
-      "slug":"mstable"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/mstable.png",
+      "slug":"mstable",
+      "primitives":[
+         "LENDING"
+      ],
+      "website":"https://mstable.org"
    },
    {
       "name":"COMPOUND",
-      "logo":"https://static.defitrack.io/images/protocols/compound.png",
-      "slug":"compound"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/compound.png",
+      "slug":"compound",
+      "primitives":[
+         "LENDING",
+         "BORROWING"
+      ],
+      "website":"https://compound.finance"
    },
    {
       "name":"BEEFY",
-      "logo":"https://static.defitrack.io/images/protocols/beefy.png",
-      "slug":"beefy"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/beefy.png",
+      "slug":"beefy",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://beefy.com"
    },
    {
       "name":"QUICKSWAP",
-      "logo":"https://static.defitrack.io/images/protocols/quickswap.png",
-      "slug":"quickswap"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/quickswap.png",
+      "slug":"quickswap",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://quickswap.exchange/"
    },
    {
       "name":"POLYCAT",
-      "logo":"https://static.defitrack.io/images/protocols/polycat.webp",
-      "slug":"polycat"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/polycat.webp",
+      "slug":"polycat",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://polycat.finance"
    },
    {
       "name":"HOP",
-      "logo":"https://static.defitrack.io/images/protocols/hop.jpg",
-      "slug":"hop"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/hop.jpg",
+      "slug":"hop",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://hop.exchange"
    },
    {
       "name":"DINOSWAP",
-      "logo":"https://static.defitrack.io/images/protocols/dinoswap.png",
-      "slug":"dinoswap"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/dinoswap.png",
+      "slug":"dinoswap",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://dinoswap.exchange"
    },
    {
       "name":"ADAMANT",
-      "logo":"https://static.defitrack.io/images/protocols/adamant.png",
-      "slug":"adamant"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/adamant.png",
+      "slug":"adamant",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://adamant.finance"
    },
    {
       "name":"UNISWAP",
-      "logo":"https://static.defitrack.io/images/protocols/uniswap.png",
-      "slug":"uniswap"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/uniswap.png",
+      "slug":"uniswap",
+      "primitives":[
+         "POOLING"
+      ],
+      "website":"https://uniswap.org"
    },
    {
       "name":"DFYN",
-      "logo":"https://static.defitrack.io/images/protocols/dfyn.svg",
-      "slug":"dfyn"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/dfyn.svg",
+      "slug":"dfyn",
+      "primitives":[
+         "POOLING"
+      ],
+      "website":"https://dfyn.network"
    },
    {
       "name":"IDEX",
-      "logo":"https://static.defitrack.io/images/protocols/idex.png",
-      "slug":"idex"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/idex.png",
+      "slug":"idex",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://idex.io"
    },
    {
       "name":"SUSHISWAP",
-      "logo":"https://static.defitrack.io/images/protocols/sushiswap.png",
-      "slug":"sushiswap"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/sushiswap.png",
+      "slug":"sushiswap",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://sushi.com"
    },
    {
-      "name":"DMM",
-      "logo":"https://static.defitrack.io/images/protocols/dmm.png",
-      "slug":"dmm"
+      "name":"KYBER_SWAP",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/dmm.png",
+      "slug":"kyberswap",
+      "primitives":[
+         "POOLING"
+      ],
+      "website":"https://kyberswap.com"
    },
    {
       "name":"BALANCER",
-      "logo":"https://static.defitrack.io/images/protocols/balancer.png",
-      "slug":"balancer"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/balancer.png",
+      "slug":"balancer",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://balancer.fi"
+   },
+   {
+      "name":"SPOOKY",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/spooky.png",
+      "slug":"spooky",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://spooky.fi"
+   },
+   {
+      "name":"SPIRITSWAP",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/spirit.png",
+      "slug":"spirit",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://www.spiritswap.finance"
+   },
+   {
+      "name":"RIBBON",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/ribbon.png",
+      "slug":"ribbon",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://ribbon.finance"
+   },
+   {
+      "name":"LOOKSRARE",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/looksrare.png",
+      "slug":"looksrare",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://looksrare.org"
+   },
+   {
+      "name":"APESWAP",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/apeswap.png",
+      "slug":"apeswap",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://apeswap.finance"
+   },
+   {
+      "name":"DODO",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/dodo.png",
+      "slug":"dodo",
+      "primitives":[
+         "POOLING",
+         "FARMING"
+      ],
+      "website":"https://dodoex.io"
    },
    {
       "name":"CONVEX",
-      "logo":"https://static.defitrack.io/images/protocols/convex.png",
-      "slug":"convex"
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/convex.png",
+      "slug":"convex",
+      "primitives":[
+         "FARMING"
+      ],
+      "website":"https://convexfinance.com/"
+   },
+   {
+      "name":"MAKERDAO",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/makerdao.png",
+      "slug":"makerdao",
+      "primitives":[
+         "LENDING"
+      ],
+      "website":"https://makerdao.com/"
+   },
+   {
+      "name":"MAPLEFINANCE",
+      "logo":"https://github.com/defitrack/data/raw/master/logo/protocol/maple-finance.png",
+      "slug":"maplefinance",
+      "primitives":[
+         "LENDING"
+      ],
+      "website":"https://maple.finance/"
    }
 ]
 ```
