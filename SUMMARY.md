@@ -36,7 +36,7 @@
 
 * [🏷 Labeled Addresses](api-endpoints/labeled-addresses.md)
 * [👩💻 Event Decoders](api-endpoints/event-decoders.md)
-* [Protocols](api-endpoints/protocols.md)
+* [🦕 Protocols](api-endpoints/protocols.md)
 * [📶 Networks](api-endpoints/networks.md)
 * [🪙 ERC20](api-endpoints/erc20.md)
 * [🏦 Lending](api-endpoints/lending/README.md)
