@@ -4,7 +4,7 @@ description: >-
   domain knowledge. We deliver endpoints to decode publicly known events.
 ---
 
-# Event Decoders
+# 👩💻 Event Decoders
 
 {% swagger method="get" path="/{transactionHash}?network={NETWORK}" baseUrl="https://api.decentri.fi/events/decode" summary="Fetch all events that decentrifi can decode from a given transaction on a network." %}
 {% swagger-description %}
