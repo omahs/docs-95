@@ -13,34 +13,34 @@ description: >-
 | ------------------------------------------------------------------------------ | ------- |
 | [Pooling Markets](../../api-endpoints/pooling-markets.md)                      | ✅       |
 | [Pooling Positions](../../api-endpoints/liquidity-pools/pooling-positions.md)  | ✅       |
-|                                                                                | ✅       |
+| [Staking Markets](../../api-endpoints/farming.md)                              | ✅       |
 | [Staking Positions](../../developers/domain-model/farming/farming-position.md) | ✅       |
 
 ## Polygon Roadmap&#x20;
 
-| Feature           | Support |
-| ----------------- | ------- |
-| Pooling Markets   | ✅       |
-| Pooling Positions | ✅       |
-| Staking Markets   | ✅       |
-| Staking Positions | ✅       |
+| Feature                                                                       | Support |
+| ----------------------------------------------------------------------------- | ------- |
+| [Pooling Markets](../../api-endpoints/pooling-markets.md)                     | ✅       |
+| [Pooling Positions](../../api-endpoints/liquidity-pools/pooling-positions.md) | ✅       |
+| [Staking Markets](../../api-endpoints/farming.md)                             | ✅       |
+| [Staking Positions](../../api-endpoints/farming/farming-positions.md)         | ✅       |
 
 
 
 ## Arbitrum Roadmap&#x20;
 
-| Feature           | Support                                 |
-| ----------------- | --------------------------------------- |
-| Pooling Markets   | ✅                                       |
-| Pooling Positions | ✅                                       |
-| Staking Markets   | [❌](https://emojipedia.org/cross-mark/) |
-| Staking Positions | [❌](https://emojipedia.org/cross-mark/) |
+| Feature                                                                       | Support                                 |
+| ----------------------------------------------------------------------------- | --------------------------------------- |
+| [Pooling Markets](../../api-endpoints/pooling-markets.md)                     | ✅                                       |
+| [Pooling Positions](../../api-endpoints/liquidity-pools/pooling-positions.md) | ✅                                       |
+| Staking Markets                                                               | [❌](https://emojipedia.org/cross-mark/) |
+| Staking Positions                                                             | [❌](https://emojipedia.org/cross-mark/) |
 
 ## Optimism Roadmap&#x20;
 
-| Feature           | Support                                 |
-| ----------------- | --------------------------------------- |
-| Pooling Markets   | ✅                                       |
-| Pooling Positions | ✅                                       |
-| Staking Markets   | [❌](https://emojipedia.org/cross-mark/) |
-| Staking Positions | [❌](https://emojipedia.org/cross-mark/) |
+| Feature                                                                       | Support                                 |
+| ----------------------------------------------------------------------------- | --------------------------------------- |
+| [Pooling Markets](../../api-endpoints/pooling-markets.md)                     | ✅                                       |
+| [Pooling Positions](../../api-endpoints/liquidity-pools/pooling-positions.md) | ✅                                       |
+| Staking Markets                                                               | [❌](https://emojipedia.org/cross-mark/) |
+| Staking Positions                                                             | [❌](https://emojipedia.org/cross-mark/) |
