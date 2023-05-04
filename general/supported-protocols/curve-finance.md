@@ -7,6 +7,12 @@ description: >-
 
 # Curve Finance API
 
+{% hint style="info" %}
+Did you know you can track curve finance's live markets at [https://decentri.fi/protocols/curve](https://decentri.fi/protocols/curve)
+{% endhint %}
+
+##
+
 ## Ethereum Roadmap&#x20;
 
 | Feature                                                                        | Support |
