@@ -8,7 +8,7 @@ description: >-
 # Aave API
 
 {% hint style="info" %}
-Did you know you can track curve finance's live markets at [https://decentri.fi/protocols/aave](https://decentri.fi/protocols/aave)
+Did you know you can track aave's live markets at [https://decentri.fi/protocols/aave](https://decentri.fi/protocols/aave)
 {% endhint %}
 
 ##
