@@ -1,4 +1,4 @@
-# Networks
+# 📶 Networks
 
 {% swagger method="get" path="/networks" baseUrl="https://api.defitrack.io" summary="Fetch all available networks on the platform. " %}
 {% swagger-description %}

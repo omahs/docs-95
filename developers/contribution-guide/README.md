@@ -12,7 +12,7 @@ We appreciate any contribution to the general defitrack api. It's possible your 
 
 All we ask is to adhere to the existing interfaces defined in the [domain model section](../domain-model/).
 
-****
+
 
 ## **Repositories**
 

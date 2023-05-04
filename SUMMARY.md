@@ -9,7 +9,6 @@
   * [Bancor API](general/supported-protocols/bancor-api.md)
   * [Iron Bank API](general/supported-protocols/iron-bank-api.md)
   * [Apeswap API](general/supported-protocols/apeswap-api.md)
-  * [HumanDAO API](general/supported-protocols/humandao-api.md)
   * [Curve Finance API](general/supported-protocols/curve-finance.md)
   * [mStable API](general/supported-protocols/mstable.md)
   * [Compound Finance API](general/supported-protocols/compound-finance.md)
