@@ -6,6 +6,8 @@ description: >-
 
 # 🏷 Labeled Addresses
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 {% swagger method="get" path="/{address}" baseUrl="https://api.decentri.fi/labeled-addresses" summary="Fetch a label related to an address" %}
 {% swagger-description %}
 
@@ -28,3 +30,4 @@ Blockchain address
 
 {% endswagger-response %}
 {% endswagger %}
+

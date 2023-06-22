@@ -42,15 +42,7 @@ If you'd like to add new Pooling markets, like the ones on [Curve](https://githu
 
 The [domain model ](../domain-model/)for [Pooling Markets](../domain-model/pooling-market.md) consists the following fields:
 
-| field    | type                                                  | description                                                                    |
-| -------- | ----------------------------------------------------- | ------------------------------------------------------------------------------ |
-| id       | string                                                | unique id per market. Make it something logical like quickwap-polygon-$address |
-| address  | string                                                | address of the LP token                                                        |
-| name     | string                                                | name of the market, like **Curve.fi DAI/USDC/USDT/PAX.**                       |
-| protocol | Protocol                                              | One of the protocols in the enum, like **CURVE**                               |
-| network  | Network                                               | One of the networks in the enum, like **POLYGON**                              |
-| tokens   | [FungibleToken](../domain-model/fungible-token.md)\[] | a list of underlying tokens                                                    |
-| apr      | Double                                                | The APR of the LP in percentage. 0.5 = 0.5%                                    |
+<table><thead><tr><th width="153.33333333333331">field</th><th width="166.36144578313258">type</th><th>description</th></tr></thead><tbody><tr><td>id</td><td>string</td><td>unique id per market. Make it something logical like quickwap-polygon-$address</td></tr><tr><td>address</td><td>string</td><td>address of the LP token</td></tr><tr><td>name</td><td>string</td><td>name of the market, like <strong>Curve.fi DAI/USDC/USDT/PAX.</strong></td></tr><tr><td>protocol</td><td>Protocol</td><td>One of the protocols in the enum, like <strong>CURVE</strong></td></tr><tr><td>network</td><td>Network</td><td>One of the networks in the enum, like <strong>POLYGON</strong></td></tr><tr><td>tokens</td><td><a href="../domain-model/fungible-token.md">FungibleToken</a>[]</td><td>a list of underlying tokens</td></tr><tr><td>apr</td><td>Double</td><td>The APR of the LP in percentage. 0.5 = 0.5%</td></tr></tbody></table>
 
 ### Adding **Farming** Markets
 

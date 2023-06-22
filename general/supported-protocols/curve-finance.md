@@ -15,12 +15,7 @@ Did you know you can track curve finance's live markets at [https://decentri.fi/
 
 ## Ethereum Roadmap&#x20;
 
-| Feature                                                                        | Support |
-| ------------------------------------------------------------------------------ | ------- |
-| [Pooling Markets](../../api-endpoints/pooling-markets.md)                      | ✅       |
-| [Pooling Positions](../../api-endpoints/liquidity-pools/pooling-positions.md)  | ✅       |
-| [Staking Markets](../../api-endpoints/farming.md)                              | ✅       |
-| [Staking Positions](../../developers/domain-model/farming/farming-position.md) | ✅       |
+<table data-header-hidden><thead><tr><th width="327">Feature</th><th>Support</th></tr></thead><tbody><tr><td>Feature</td><td>Support</td></tr><tr><td><a href="../../api-endpoints/pooling-markets.md">Pooling Markets</a></td><td>✅</td></tr><tr><td><a href="../../api-endpoints/liquidity-pools/pooling-positions.md">Pooling Positions</a></td><td>✅</td></tr><tr><td><a href="../../api-endpoints/farming.md">Staking Markets</a></td><td>✅</td></tr><tr><td><a href="../../developers/domain-model/farming/farming-position.md">Staking Positions</a></td><td>✅</td></tr></tbody></table>
 
 ## Polygon Roadmap&#x20;
 
