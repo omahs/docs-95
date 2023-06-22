@@ -1,3 +1,9 @@
+---
+description: >-
+  Decentrifi currently supports 6 different (EVM compatible) networks. In order
+  to get all the networks it supports, you can use the following endpoints.
+---
+
 # 📶 Networks
 
 {% swagger method="get" path="/networks" baseUrl="https://api.defitrack.io" summary="Fetch all available networks on the platform. " %}

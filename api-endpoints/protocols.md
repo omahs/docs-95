@@ -1,6 +1,6 @@
 ---
 description: >-
-  Decentrifi supports more than 48 different protocols. In order to get all the
+  Decentrifi supports more than 49 different protocols. In order to get all the
   protocols it supports, you can use the following endpoints.
 ---
 
