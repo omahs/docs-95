@@ -4,6 +4,10 @@ description: API support for ENS naming
 
 # 🔗 ENS
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### The API
+
 {% swagger method="get" path="/by-name/{ens-name}" baseUrl="https://api.decentri.fi/ens" summary="Fetch an address by ENS name" %}
 {% swagger-description %}
 
