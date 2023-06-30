@@ -102,7 +102,7 @@
 ***
 
 * [Resources](resources/README.md)
-  * [Code](https://github.com/defitrack)
-  * [Twitter](https://twitter.com/defitrack)
+  * [Code](https://github.com/decentri-fi)
+  * [Twitter](https://twitter.com/decentrifi)
   * [Bounties](https://gitcoin.co/explorer?applicants=ALL\&keywords=defitrack)
   * [Grant](https://gitcoin.co/grants/4539/defitrack-find-the-best-opportunities-in-the-defi)
