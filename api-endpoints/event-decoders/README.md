@@ -6,7 +6,11 @@ description: >-
 
 # 👩💻 Event Decoders
 
+
+
+{% hint style="info" %}
 Example: [https://api.decentri.fi/events/decode/0xc39bca069cdc89832387d2dc57ef395ab2896013144a252d614e5ab2c88edb5e?network=ETHEREUM](https://api.decentri.fi/events/decode/0xc39bca069cdc89832387d2dc57ef395ab2896013144a252d614e5ab2c88edb5e?network=ETHEREUM)
+{% endhint %}
 
 {% swagger method="get" path="/{transactionHash}?network={NETWORK}" baseUrl="https://api.decentri.fi/events/decode" summary="Fetch all events that decentrifi can decode from a given transaction on a network." %}
 {% swagger-description %}
@@ -55,7 +59,3 @@ Network, like "ETHEREUM"
 ```
 {% endswagger-response %}
 {% endswagger %}
-
-{% hint style="info" %}
-
-{% endhint %}
