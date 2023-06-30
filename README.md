@@ -13,7 +13,7 @@ It unifies all concepts of lending, borrowing, vaults, farming and staking to ea
 The supported protocols an be found at Supported Protocols. You can also find query the API to see the actively supported protocols.
 
 {% hint style="info" %}
-Example
+**Example**
 
 https://api.decentri.fi/protocols
 {% endhint %}
