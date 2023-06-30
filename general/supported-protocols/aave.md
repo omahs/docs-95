@@ -15,17 +15,7 @@ Did you know you can track aave's live markets at
 
 ## Ethereum Roadmap
 
-| Feature              | Support |
-| -------------------- | ------- |
-| V2 Lending Markets   | ✅       |
-| V2 Lending Positions | ✅       |
-| V3 Lending Markets   | ✅       |
-| V3 Lending Positions | ✅       |
-| V3 Investments       | ✅       |
-| Staking Markets      | ✅       |
-| Staking Positions    | ✅       |
-| Pooling Markets      | ✅       |
-| Pooling Positions    | ✅       |
+<table data-header-hidden><thead><tr><th width="298">Feature</th><th>Support</th></tr></thead><tbody><tr><td>Feature</td><td>Support</td></tr><tr><td>V2 Lending Markets</td><td>✅</td></tr><tr><td>V2 Lending Positions</td><td>✅</td></tr><tr><td>V3 Lending Markets</td><td>✅</td></tr><tr><td>V3 Lending Positions</td><td>✅</td></tr><tr><td>V3 Investments</td><td>✅</td></tr><tr><td>Staking Markets</td><td>✅</td></tr><tr><td>Staking Positions</td><td>✅</td></tr><tr><td>Pooling Markets</td><td>✅</td></tr><tr><td>Pooling Positions</td><td>✅</td></tr></tbody></table>
 
 ## Polygon Roadmap
 
