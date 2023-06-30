@@ -27,6 +27,14 @@ id of the underlying market
 slug of a protocol
 {% endswagger-parameter %}
 
+{% swagger-parameter in="body" name="user" type="string" required="true" %}
+address wanting to enter the market
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="amount" type="BigInteger" required="true" %}
+amount to be entered the market into
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="Example of Aave Enter Response" %}
 ```javascript
 {
