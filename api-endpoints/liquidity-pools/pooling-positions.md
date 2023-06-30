@@ -13,6 +13,10 @@ Return a list of all pooling positions for a specific user on a specific protoco
 
 If the protocol does not support Pooling Markets, the result will be an empty Array.&#x20;
 
+{% hint style="info" %}
+Example fetching pooling positions for set protocol: [https://api.decentri.fi/set/pooling/0xf18adf71266411FF39FfC268843c9A64b3292d86/positions](https://api.decentri.fi/set/pooling/0xf18adf71266411FF39FfC268843c9A64b3292d86/positions)
+{% endhint %}
+
 {% swagger method="get" path="/{protocol}/pooling/{address}/positions" baseUrl="https://api.decentri.fi" summary="Get the pooling positions pertaining to a specific user for a specific protocol" %}
 {% swagger-description %}
 
