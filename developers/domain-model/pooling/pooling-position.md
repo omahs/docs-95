@@ -1,3 +1,9 @@
+---
+description: >-
+  The concept of a pooling position is a position that someone has taking into a
+  liquidity pool (market).
+---
+
 # Pooling Position
 
 ```
