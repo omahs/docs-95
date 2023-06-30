@@ -8,7 +8,7 @@ Defitrack tries to track various lending markets across various chains. We try t
 
 Return a list of Lending Markets, which contain information about which tokens can be lent out on a specific platform. It often returns the APR, which is the rate you get for providing your assets to the lending pool.
 
-{% swagger method="get" path="/{protocol}/lending/all-markets" baseUrl="https://api.defitrack.io" summary="Fetches all lending markets for a specific protocol. " %}
+{% swagger method="get" path="/{protocol}/lending/all-markets" baseUrl="https://api.decentri.fi" summary="Fetches all lending markets for a specific protocol. " %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -55,7 +55,7 @@ slug of the protocol
 
 Return a list of Lending markets on a specific network for a specific token. This can be used to search for a lending market on a specific protocol (like compound) using DAI as your asset to be lent out.
 
-{% swagger method="get" path="/{protocol}/lending/markets?token={token}&network={network}" baseUrl="https://api.defitrack.io" summary="Fetch lending markets for a specific protocol, token and network" %}
+{% swagger method="get" path="/{protocol}/lending/markets?token={token}&network={network}" baseUrl="https://api.decentri.fi" summary="Fetch lending markets for a specific protocol, token and network" %}
 {% swagger-description %}
 
 {% endswagger-description %}

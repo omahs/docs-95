@@ -13,7 +13,7 @@ Our definition of farming is any one of the following:
 
 Return a list of Farming Markets, which contain information about which tokens can be put in a vault/farm on a specific platform. It often returns the APR, which is the rate you get for providing your assets to the farming pool. Depending on the type of pool (autocompounding like Beefy Finance), the APR is the APY.&#x20;
 
-{% swagger method="get" path="/{protocol}/staking/all-markets?network={network}" baseUrl="https://api.defitrack.io" summary="Fetches all staking markets for a specific protocol on a specific network. " %}
+{% swagger method="get" path="/{protocol}/staking/all-markets?network={network}" baseUrl="https://api.decentri.fi" summary="Fetches all staking markets for a specific protocol on a specific network. " %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -76,7 +76,7 @@ network
 
 Return a list of Farming markets on a specific network for a specific token. This can be used to search for a lending market on a specific protocol (like Beefy Finance) using DAI as your asset to be put in the specific farm or vault.
 
-{% swagger method="get" path="/{protocol}/staking/markets?token={token}&network={network}" baseUrl="https://api.defitrack.io" summary="Fetch staking markets for a specific protocol, token and network" %}
+{% swagger method="get" path="/{protocol}/staking/markets?token={token}&network={network}" baseUrl="https://api.decentri.fi" summary="Fetch staking markets for a specific protocol, token and network" %}
 {% swagger-description %}
 
 {% endswagger-description %}

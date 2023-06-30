@@ -6,7 +6,7 @@ Often times, it's required to fetch the price of a token or liquidity pool. Our 
 
 ### Calculate a price of a holding
 
-{% swagger method="post" path="/price" baseUrl="https://api.defitrack.io" summary="Calculate a price using the address, network and normalized amount." %}
+{% swagger method="post" path="/price" baseUrl="https://api.decentri.fi" summary="Calculate a price using the address, network and normalized amount." %}
 {% swagger-description %}
 
 {% endswagger-description %}

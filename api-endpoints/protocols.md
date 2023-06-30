@@ -6,7 +6,7 @@ description: >-
 
 # 🦕 Protocols
 
-{% swagger method="get" path="/protocols" baseUrl="https://api.defitrack.io" summary="Retrieve all protocols" %}
+{% swagger method="get" path="/protocols" baseUrl="https://api.decentri.fi" summary="Retrieve all protocols" %}
 {% swagger-description %}
 Returns all protocols (a generalization of applications, smart contracts and companies) supported by Decentrifi.
 {% endswagger-description %}

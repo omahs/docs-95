@@ -13,7 +13,7 @@ Return a list of all pooling positions for a specific user on a specific protoco
 
 If the protocol does not support Pooling Markets, the result will be an empty Array.&#x20;
 
-{% swagger method="get" path="/{protocol}/pooling/{address}/positions" baseUrl="https://api.defitrack.io" summary="Get the pooling positions pertaining to a specific user for a specific protocol" %}
+{% swagger method="get" path="/{protocol}/pooling/{address}/positions" baseUrl="https://api.decentri.fi" summary="Get the pooling positions pertaining to a specific user for a specific protocol" %}
 {% swagger-description %}
 
 {% endswagger-description %}

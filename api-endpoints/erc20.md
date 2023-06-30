@@ -10,7 +10,7 @@ description: Various api endpoints to fetch ERC20-related token information.
 
 Each native token on a specific network has a wrapped version that can be used. We keep a mapping of every wrapped token version of the native token on a chain.&#x20;
 
-{% swagger method="get" path="/erc20/{network}/wrapped" baseUrl="https://api.defitrack.io" summary="Retrieve the wrapped token of the provided network" %}
+{% swagger method="get" path="/erc20/{network}/wrapped" baseUrl="https://api.decentri.fi" summary="Retrieve the wrapped token of the provided network" %}
 {% swagger-description %}
 Retrieve the wrapped version of a network's native token. 
 {% endswagger-description %}
@@ -32,7 +32,7 @@ address: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
 
 ### Fetch ERC20 Token Information
 
-{% swagger method="get" path="/erc20/{network}/{address}/token" baseUrl="https://api.defitrack.io" summary="Fetch more information about the token. This result will indicate which type of token we're dealing with." %}
+{% swagger method="get" path="/erc20/{network}/{address}/token" baseUrl="https://api.decentri.fi" summary="Fetch more information about the token. This result will indicate which type of token we're dealing with." %}
 {% swagger-description %}
 
 {% endswagger-description %}

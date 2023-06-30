@@ -6,7 +6,7 @@ Defitrack tracks various pooling markets across different chains. We try to main
 
 Return a list of Pooling Markets, which contain information about which tokens can be put in a pool on a specific platform. It often returns the APR, which is the rate you get for providing your assets to the pool.&#x20;
 
-{% swagger method="get" path="/{protocol}/pooling/all-markets" baseUrl="https://api.defitrack.io" summary="Fetches all staking markets for a specific protocol on a specific network. " %}
+{% swagger method="get" path="/{protocol}/pooling/all-markets" baseUrl="https://api.decentri.fi" summary="Fetches all staking markets for a specific protocol on a specific network. " %}
 {% swagger-description %}
 
 {% endswagger-description %}
