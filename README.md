@@ -8,35 +8,15 @@ It consists of a set of **SDKS**, **smart contracts** and **graphs** that contri
 
 It unifies all concepts of lending, borrowing, vaults, farming and staking to easy to integrate elements.
 
-### Supported Protocols
+## Supported Protocols
 
-We support a variety of different protocols, some partially and some fully.&#x20;
+The supported protocols an be found at Supported Protocols. You can also find query the API to see the actively supported protocols.
 
-| Protocol                                                        | Website | Type                                                                                      |
-| --------------------------------------------------------------- | ------- | ----------------------------------------------------------------------------------------- |
-| [Aave](general/supported-protocols/aave.md)                     |         | [Farming](api-endpoints/farming.md), [Lending](api-endpoints/lending.md), Borrowing       |
-| [Curve](general/supported-protocols/curve-finance.md)           |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md)          |
-| [MStable](general/supported-protocols/mstable.md)               |         | [Lending](api-endpoints/lending.md)                                                       |
-| [Compound](general/supported-protocols/compound-finance.md)     |         | [Lending](api-endpoints/lending.md), Borrowing                                            |
-| [Beefy](general/supported-protocols/beefy-finance.md)           |         | [Farming](api-endpoints/farming.md)                                                       |
-| [Quickswap](general/supported-protocols/quickswap.md)           |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md)          |
-| [Polycat](general/supported-protocols/polycat.md)               |         | [Farming](api-endpoints/farming.md)                                                       |
-| [Hop Exchange](general/supported-protocols/hop-exchange-api.md) |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md)          |
-| [Dinoswap](general/supported-protocols/dinoswap-api.md)         |         | [Farming](api-endpoints/farming.md)                                                       |
-| [Adamant](general/supported-protocols/adamant-finance.md)       |         | [Farming](api-endpoints/farming.md)                                                       |
-| [Uniswap](general/supported-protocols/uniswap.md)               |         | [Pooling](api-endpoints/pooling-markets.md)                                               |
-| [Dfyn](general/supported-protocols/dfyn.md)                     |         | [Pooling](api-endpoints/pooling-markets.md)                                               |
-| [Idex](general/supported-protocols/idex-api.md)                 |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md)          |
-| [Sushiswap](general/supported-protocols/sushiswap.md)           |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md)          |
-| [Kyber (DMM)](general/supported-protocols/kyber-dmm.md)         |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md)          |
-| [Balancer](general/supported-protocols/balancer.md)             |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md)          |
-| [Stargate](general/supported-protocols/stargate.md)             |         | [Farming](api-endpoints/farming.md)                                                       |
-| [Spooky](general/supported-protocols/spookyswap.md)             |         | [Pooling](developers/domain-model/pooling-market.md), [Farming](api-endpoints/farming.md) |
-| [Spiritswap](general/supported-protocols/spiritswap.md)         |         | [Pooling](api-endpoints/pooling-markets.md), [Farming](api-endpoints/farming.md)          |
-| [Convex](general/supported-protocols/convex-finance.md)         |         | [Farming](api-endpoints/farming.md)                                                       |
-| [Iron Bank](general/supported-protocols/iron-bank-api.md)       |         | [Lending](api-endpoints/lending.md), Borrowing                                            |
-| [Apeswap](general/supported-protocols/apeswap-api.md)           |         | [Pooling](api-endpoints/pooling-markets.md)                                               |
-| Bancor                                                          |         | [Pooling](developers/domain-model/pooling-market.md), [Farming](api-endpoints/farming.md) |
+{% hint style="info" %}
+Example
+
+https://api.decentri.fi/protocols
+{% endhint %}
 
 ## What are we currently focusing on?
 
