@@ -1,4 +1,16 @@
+---
+description: >-
+  Blur is a zero-fee non-fungible token (NFT) marketplace launched in October
+  2022 to cater to the needs of professional NFT traders.
+---
+
 # Blur API
+
+{% hint style="info" %}
+You can find all available Blur Markets by navigating to&#x20;
+
+[https://api.decentri.fi/blur/pooling/markets](https://api.decentri.fi/blur/pooling/markets)
+{% endhint %}
 
 ## Ethereum Roadmap
 
