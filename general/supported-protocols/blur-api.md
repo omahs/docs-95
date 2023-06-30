@@ -7,7 +7,7 @@ description: >-
 # Blur API
 
 {% hint style="info" %}
-You can find all available Blur Markets by navigating to&#x20;
+You can find all available Blur Deposit Markets by fetching
 
 [https://api.decentri.fi/blur/pooling/markets](https://api.decentri.fi/blur/pooling/markets)
 {% endhint %}
