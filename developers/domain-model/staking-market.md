@@ -8,10 +8,10 @@ data class StakingMarketVO(
     val name: String,
     val stakedToken: FungibleToken,
     val reward: List<FungibleToken>,
-    val contractAddress: String,
-    val vaultType: String,
     val marketSize: BigDecimal?,
     val apr: BigDecimal?,
-    val prepareInvestmentSupported: Boolean
+    val prepareInvestmentSupported: Boolean,
+    val exitPositionSupported: Boolean,
+    val expired: Boolean
 )
 ```
