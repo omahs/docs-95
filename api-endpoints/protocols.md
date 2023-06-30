@@ -6,6 +6,18 @@ description: >-
 
 # 🦕 Protocols
 
+### What's a protocol?
+
+Protocols refer to the underlying technologies or systems that enable various aspects of decentralized finance (DeFi) to function. These protocols form the backbone of the Decentri.fi DeFi Hub, which partners with various protocols, aggregators, and exchanges to provide users with the most comprehensive markets and the best yield opportunities across a variety of blockchain networks.
+
+At the current stage, we support more than 49 protocols on 6 different chains. These protocols encompass a wide range of DeFi functions, including but not limited to lending, borrowing, yield farming, and liquidity pooling.
+
+Each protocol represents a different DeFi platform or service, with its own unique features and benefits. By integrating these protocols into its system, Decentri.fi is able to abstract common principles and domains, thereby unifying different aspects of DeFi into easy-to-integrate elements.
+
+It is important to note that the number of supported protocols and chains is not static. Decentri.fi continually strives to add more protocols and chains to its system, while also working to maintain and even expand upon the existing protocols. This continuous growth and evolution ensure that users of decentri.fi always have access to the latest and most lucrative opportunities in the DeFi space​.
+
+### Fetching Available Protocols
+
 {% swagger method="get" path="/protocols" baseUrl="https://api.decentri.fi" summary="Retrieve all protocols" %}
 {% swagger-description %}
 Returns all protocols (a generalization of applications, smart contracts and companies) supported by Decentrifi.

@@ -40,11 +40,15 @@ We support a variety of different protocols, some partially and some fully.&#x20
 
 ## What are we currently focusing on?
 
-We've only been building **Defi Hub** to create a robust architecture to quickly help 3d parties integrate with defi protocols. We're adding new platforms and networks on a daily basis. However, in the near future, our main focus will be:
+Since the inception of Decentri.fi, our primary goal has been to build a robust architecture that enables third-party applications to seamlessly integrate with various decentralized finance protocols. We are dedicated to continually expanding our platform by adding new DeFi platforms and blockchain networks on a regular basis.
 
-* Map Lending, Borrowing, Pooling and Farming markets
-* Abstract integration with markets, so you can invest principal and claim rewards using a unified API.
-* Find the best lending/farming opportunities based on the underlying tokens.
-* Find all opportunities based on your wallet
-* Find better opportunities based on your current investments
+As we move forward, our primary areas of focus include:
+
+* **Mapping DeFi Markets:** We aim to create comprehensive maps of the lending, borrowing, pooling, and farming markets within the DeFi ecosystem. By doing so, we hope to provide users with a clear and concise view of the available opportunities across different DeFi markets.
+* **Simplifying Market Integration:** Our objective is to abstract the process of integrating with various DeFi markets. This would enable users to invest their principal and claim rewards using a unified API, thereby reducing the complexity traditionally associated with DeFi investments.
+* **Identifying Optimal Opportunities:** We are developing tools and algorithms to identify the best lending and farming opportunities based on the underlying tokens. This feature aims to guide users towards the most lucrative investment opportunities within the DeFi space.
+* **Personalized Opportunity Discovery:** Our team is working on features that will identify all available DeFi opportunities based on the tokens held in a user's wallet. This personalized discovery mechanism will help users navigate the often overwhelming landscape of DeFi investment options.
+* **Improving Investment Strategies:** We are creating systems that analyze a user's current investments and suggest better opportunities that align with their investment goals and risk tolerance. This feature is aimed at helping users optimize their DeFi investment strategies over time.
+
+Please note that these focus areas represent our current roadmap and are subject to change as we adapt to the evolving needs of our users and the broader DeFi ecosystem
 
