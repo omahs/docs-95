@@ -10,6 +10,7 @@ class TokenInformation(
     val type: TokenType,
     val totalSupply: BigInteger = BigInteger.ZERO,
     val underlyingTokens: List<TokenInformation> = emptyList(),
-    val protocol: Protocol? = null
+    val protocol: Protocol? = null,
+    val network: Network
 ) 
 ```
