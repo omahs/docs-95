@@ -11,8 +11,13 @@ data class FarmingPosition(
     val vaultType: String,
     val apr: Double?,
     val stakedToken: FungibleToken,
-    val amount: Double,
-    val underlyingAmount: Double?,
-    val rewardTokens: List<FungibleToken>
+    val stakedAmountDecimal: BigDecimal,
+    val stakedAmount: String,
+    val tokenAmountDecimal: BigDecimal,
+    val tokenAmount: String,
+    val rewardTokens: List<FungibleToken>,
+    val exitPositionSupported: Boolean,
+    val expired: Boolean,
+    val market: FarmingMarket
 )
 ```
