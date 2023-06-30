@@ -8,6 +8,15 @@ description: API support for ENS naming
 
 ### The API
 
+
+
+### By Name
+
+{% hint style="info" %}
+Example: \
+[https://api.decentri.fi/ens/by-name/vitalik.eth](https://api.decentri.fi/ens/by-name/vitalik.eth)
+{% endhint %}
+
 {% swagger method="get" path="/by-name/{ens-name}" baseUrl="https://api.decentri.fi/ens" summary="Fetch an address by ENS name" %}
 {% swagger-description %}
 
@@ -26,6 +35,15 @@ ENS Name of a user
 ```
 {% endswagger-response %}
 {% endswagger %}
+
+
+
+### By Address
+
+{% hint style="info" %}
+Example: \
+[https://api.decentri.fi/ens/by-address/0xd8da6bf26964af9d7eed9e03e53415d37aa96045](https://api.decentri.fi/ens/by-address/0xd8da6bf26964af9d7eed9e03e53415d37aa96045)
+{% endhint %}
 
 {% swagger method="get" path="/by-address/{address}" baseUrl="https://api.decentri.fi/ens" summary="Fetch an ENS name by address" %}
 {% swagger-description %}
