@@ -6,6 +6,10 @@ Defitrack tracks various pooling markets across different chains. We try to main
 
 Return a list of Pooling Markets, which contain information about which tokens can be put in a pool on a specific platform. It often returns the APR, which is the rate you get for providing your assets to the pool.&#x20;
 
+{% hint style="info" %}
+Example: [https://api.decentri.fi/quickswap/pooling/markets](https://api.decentri.fi/quickswap/pooling/markets)
+{% endhint %}
+
 {% swagger method="get" path="/{protocol}/pooling/all-markets" baseUrl="https://api.decentri.fi" summary="Fetches all staking markets for a specific protocol on a specific network. " %}
 {% swagger-description %}
 
@@ -84,6 +88,10 @@ slug of the protocol
 ### Fetch all pooling markets pertaining to a specific token and network
 
 Return a list of **pooling markets** on a specific **network** for a specific **token**. This can be used to search for a pooling market on a specific protocol (like uniswap v3) using DAI as your asset to be put in the specific pool.
+
+{% hint style="info" %}
+Example: [https://api.decentri.fi/camelot/pooling/markets?token=0xff970a61a04b1ca14834a43f5de4533ebddb5cc8\&network=ARBITRUM](https://api.decentri.fi/camelot/pooling/markets?token=0xff970a61a04b1ca14834a43f5de4533ebddb5cc8\&network=ARBITRUM)
+{% endhint %}
 
 {% swagger method="get" path="/{protocol}/pooling/markets?token={token}&network={network}" baseUrl="https://api.defitrack.io" summary="Fetch staking markets for a specific protocol, token and network" %}
 {% swagger-description %}
