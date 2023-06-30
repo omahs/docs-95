@@ -93,7 +93,7 @@ Return a list of **pooling markets** on a specific **network** for a specific **
 Example: [https://api.decentri.fi/camelot/pooling/markets?token=0xff970a61a04b1ca14834a43f5de4533ebddb5cc8\&network=ARBITRUM](https://api.decentri.fi/camelot/pooling/markets?token=0xff970a61a04b1ca14834a43f5de4533ebddb5cc8\&network=ARBITRUM)
 {% endhint %}
 
-{% swagger method="get" path="/{protocol}/pooling/markets?token={token}&network={network}" baseUrl="https://api.defitrack.io" summary="Fetch staking markets for a specific protocol, token and network" %}
+{% swagger method="get" path="/{protocol}/pooling/markets?token={token}&network={network}" baseUrl="https://api.defitrack.io" summary="Fetch pooling markets for a specific protocol, token and network" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -114,49 +114,60 @@ network we want to find a lending market on
 ```javascript
 [
   {
-    "id": "curve-ethereum-0x06364f10b501e868329afbc005b3492902d6c763",
-    "network": "ETHEREUM",
-    "protocol": "CURVE",
-    "address": "0xd905e2eaebe188fc92179b6350807d8bd91db0d8",
-    "name": "Curve.fi DAI/USDC/USDT/PAX",
-    "symbol": "DAI/USDC/USDT/USDP",
-    "tokens": [
+    id: "lp_arbitrum-camelot-0xec04851c51d4478ed2827cb890b8ea87cd12e73d",
+    name: "Camelot V3 KUJI/USDC",
+    protocol: {
+      name: "CAMELOT",
+      logo: "https://github.com/defitrack/data/raw/master/logo/protocol/camelot.png",
+      slug: "camelot",
+      primitives: [
+        "POOLING",
+        "FARMING"
+      ],
+      website: "https://camelot.exchange//",
+      company: {
+        name: "Camelot",
+        slug: "camelot"
+      }
+    },
+    network: {
+      name: "ARBITRUM",
+      logo: "https://github.com/defitrack/data/raw/master/logo/network/arbitrum.png",
+      chainId: 42161
+    },
+    tokens: [
       {
-        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
-        "name": "Dai Stablecoin",
-        "decimals": 18,
-        "symbol": "DAI",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
-        "type": "SINGLE"
+        address: "0x3a18dcc9745edcd1ef33ecb93b0b6eba5671e7ca",
+        name: "Kujira native asset",
+        decimals: 6,
+        symbol: "KUJI",
+        logo: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/assets/0x3A18dcC9745eDcD1Ef33ecB93b0b6eBA5671e7Ca/logo.png",
+        type: "SINGLE",
+        totalSupply: 408705653179
       },
       {
-        "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
-        "name": "USD Coin",
-        "decimals": 6,
-        "symbol": "USDC",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
-        "type": "SINGLE"
-      },
-      {
-        "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
-        "name": "Tether USD",
-        "decimals": 6,
-        "symbol": "USDT",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
-        "type": "SINGLE"
-      },
-      {
-        "address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
-        "name": "Pax Dollar",
-        "decimals": 18,
-        "symbol": "USDP",
-        "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x8E870D67F660D95d5be530380D0eC0bd388289E1/logo.png",
-        "type": "SINGLE"
+        address: "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+        name: "USD Coin (Arb1)",
+        decimals: 6,
+        symbol: "USDC",
+        logo: "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/arbitrum/assets/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8/logo.png",
+        type: "SINGLE",
+        totalSupply: 1068141821013203
       }
     ],
-    "apr": 0.1
-    "marketSize": 0,
-    "tokenType": "CURVE"
+    breakdown: [],
+    apr: null,
+    address: "0xec04851c51d4478ed2827cb890b8ea87cd12e73d",
+    decimals: 18,
+    marketSize: 212.7435965974758,
+    prepareInvestmentSupported: false,
+    exitPositionSupported: false,
+    erc20Compatible: false,
+    price: 0,
+    totalSupply: 0,
+    metadata: {},
+    updatedAt: 1688122870139,
+    marketType: "pooling"
   }
 ]
 ```
