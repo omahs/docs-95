@@ -23,7 +23,7 @@
   * [Dfyn API](general/supported-protocols/dfyn.md)
   * [Idex API](general/supported-protocols/idex-api.md)
   * [Sushiswap API](general/supported-protocols/sushiswap.md)
-  * [Kyber DMM API](general/supported-protocols/kyber-dmm.md)
+  * [Kyberswap API](general/supported-protocols/kyber-dmm.md)
   * [Balancer API](general/supported-protocols/balancer.md)
   * [BeethovenX API](general/supported-protocols/beethovenx.md)
   * [Stargate API](general/supported-protocols/stargate.md)

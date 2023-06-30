@@ -2,7 +2,10 @@
 
 ```
 export type FarmingPosition = FarmingMarket & {
-    amount: Big
+    stakedAmount: Big;
+    stakedAmountDecimal: Big;
+    tokenAmount: Big;
+    tokenAmountDecimal: Big;
 }
 ```
 

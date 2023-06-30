@@ -1,7 +1,7 @@
 # LendingMarket
 
 ```
-type LendingMarket = {
+export type LendingMarket = {
     id: string,
     name: string,
     protocol: Protocol,
@@ -10,7 +10,9 @@ type LendingMarket = {
     rate: number | null,
     poolType: string,
     marketSize: Big,
-    prepareInvestmentSupported: Boolean
+    prepareInvestmentSupported: boolean
+    exitPositionSupported: boolean
     marketType: string,
+    enter: Function
 }
 ```
