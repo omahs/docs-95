@@ -8,10 +8,10 @@ description: >-
 # Aave API
 
 {% hint style="info" %}
-Did you know you can track aave's live markets at [https://decentri.fi/protocols/aave](https://decentri.fi/protocols/aave)
-{% endhint %}
+Did you know you can track aave's live markets at
 
-##
+https://api.decentri.fi/aave/lending/all-markets
+{% endhint %}
 
 ## Ethereum Roadmap
 
