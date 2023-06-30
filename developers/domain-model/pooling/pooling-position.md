@@ -3,7 +3,8 @@
 ```
 class PoolingPosition(
     val lpAddress: String,
-    val amount: Double,
+    val amount: BigInteger,
+    val amountDecimal: BigDecimal,
     val name: String,
     val network: NetworkVO,
     val symbol: String,
