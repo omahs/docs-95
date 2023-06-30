@@ -83,7 +83,7 @@ slug of the protocol
 
 ### Fetch all pooling markets pertaining to a specific token and network
 
-Return a list of **pooling markets** on a specific **network** for a specific **token**. This can be used to search for a pooling market on a specific protocol (like Beefy Curve) using DAI as your asset to be put in the specific pool.
+Return a list of **pooling markets** on a specific **network** for a specific **token**. This can be used to search for a pooling market on a specific protocol (like uniswap v3) using DAI as your asset to be put in the specific pool.
 
 {% swagger method="get" path="/{protocol}/pooling/markets?token={token}&network={network}" baseUrl="https://api.defitrack.io" summary="Fetch staking markets for a specific protocol, token and network" %}
 {% swagger-description %}
