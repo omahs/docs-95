@@ -6,10 +6,6 @@ description: API support for ENS naming
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-### The API
-
-
-
 ### By Name
 
 {% hint style="info" %}
