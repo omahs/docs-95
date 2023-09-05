@@ -8,11 +8,14 @@ description: >-
 
 
 
+### Token Approval
+
 <details>
 
-<summary>Token Approval</summary>
+<summary>Example</summary>
 
 ```
+
 GET https://api.decentri.fi/events/decode/0xc39bca069cdc89832387d2dc57ef395ab2896013144a252d614e5ab2c88edb5e?network=ETHEREUM
 
 [
@@ -52,6 +55,8 @@ GET https://api.decentri.fi/events/decode/0xc39bca069cdc89832387d2dc57ef395ab289
 
 </details>
 
+### Token Transfer
+
 <details>
 
 <summary>Token Transfer</summary>
@@ -59,6 +64,8 @@ GET https://api.decentri.fi/events/decode/0xc39bca069cdc89832387d2dc57ef395ab289
 
 
 </details>
+
+### Borrow
 
 <details>
 
@@ -68,6 +75,8 @@ GET https://api.decentri.fi/events/decode/0xc39bca069cdc89832387d2dc57ef395ab289
 
 </details>
 
+### Claim
+
 <details>
 
 <summary>Claim</summary>
@@ -75,6 +84,8 @@ GET https://api.decentri.fi/events/decode/0xc39bca069cdc89832387d2dc57ef395ab289
 
 
 </details>
+
+### Add Liquidity
 
 <details>
 
@@ -84,21 +95,7 @@ GET https://api.decentri.fi/events/decode/0xc39bca069cdc89832387d2dc57ef395ab289
 
 </details>
 
-<details>
-
-<summary>Swap</summary>
-
-
-
-</details>
-
-<details>
-
-<summary>Get Reward</summary>
-
-
-
-</details>
+### Remove Liquidity
 
 <details>
 
@@ -108,9 +105,31 @@ GET https://api.decentri.fi/events/decode/0xc39bca069cdc89832387d2dc57ef395ab289
 
 </details>
 
+### Get Reward
+
+<details>
+
+<summary>Get Reward</summary>
+
+
+
+</details>
+
+### Token Burn
+
 <details>
 
 <summary>Token Burn</summary>
+
+
+
+</details>
+
+### Swap
+
+<details>
+
+<summary>Swap</summary>
 
 
 
