@@ -16,7 +16,7 @@ Example: [https://api.decentri.fi/balance/0xf18adf71266411FF39FfC268843c9A64b329
 
 
 
-{% swagger method="get" path="/{address}/native-balance?network={network}" baseUrl="https://api.decentri.fi" summary="" %}
+{% swagger method="get" path="/{address}/native-balance?network={network}" baseUrl="https://api.decentri.fi" summary="Fetches the native balance for an address for a specific network. Please not that using the network to filter is optional, but advised." %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -64,7 +64,7 @@ Example: [https://api.decentri.fi/balance/0xf18adf71266411FF39FfC268843c9A64b329
 
 
 
-{% swagger method="get" path="/balance/{address}/token-balances" baseUrl="https://api.decentri.fi" summary="Get Token balances for an account" %}
+{% swagger method="get" path="/balance/{address}/token-balances" baseUrl="https://api.decentri.fi" summary="Fetches the token balances for an address for a specific network. Please not that using the network to filter is optional, but advised, as it fetches balances for thousands of tokens." %}
 {% swagger-description %}
 
 {% endswagger-description %}
