@@ -45,7 +45,6 @@
 * [🌊 Liquidity Pools](api-endpoints/liquidity-pools/README.md)
   * [🩱 Pooling Positions](api-endpoints/liquidity-pools/pooling-positions.md)
   * [🏊♂ Pooling Markets](api-endpoints/pooling-markets.md)
-  * [Pooling History](api-endpoints/liquidity-pools/pooling-history.md)
 * [🏦 Lending](api-endpoints/lending/README.md)
   * [🏦 Lending Markets](api-endpoints/lending.md)
   * [💵 Lending Positions](api-endpoints/lending/lending-positions.md)

@@ -1,6 +1,0 @@
----
-description: TODO
----
-
-# Pooling History
-
