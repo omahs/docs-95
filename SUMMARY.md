@@ -53,6 +53,7 @@
   * [🐄 Farming Markets](api-endpoints/farming.md)
 * [💲 Price API](api-endpoints/price-api.md)
 * [🦺 Invest](api-endpoints/invest.md)
+* [💰 Claimables](api-endpoints/claimables.md)
 
 ## Clients
 
