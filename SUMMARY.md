@@ -35,6 +35,7 @@
 ## API Endpoints
 
 * [💰 Claimables](api-endpoints/claimables.md)
+* [🪙 Balances](api-endpoints/balances.md)
 * [🏷 Labeled Addresses](api-endpoints/labeled-addresses.md)
 * [🔗 ENS](api-endpoints/ens.md)
 * [👩💻 Event Decoders](api-endpoints/event-decoders/README.md)
