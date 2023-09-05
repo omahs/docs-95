@@ -34,6 +34,7 @@
 
 ## API Endpoints
 
+* [💰 Claimables](api-endpoints/claimables.md)
 * [🏷 Labeled Addresses](api-endpoints/labeled-addresses.md)
 * [🔗 ENS](api-endpoints/ens.md)
 * [👩💻 Event Decoders](api-endpoints/event-decoders/README.md)
@@ -53,7 +54,6 @@
   * [🐄 Farming Markets](api-endpoints/farming.md)
 * [💲 Price API](api-endpoints/price-api.md)
 * [🦺 Invest](api-endpoints/invest.md)
-* [💰 Claimables](api-endpoints/claimables.md)
 
 ## Clients
 
