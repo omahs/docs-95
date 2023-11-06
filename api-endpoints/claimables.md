@@ -7,7 +7,31 @@ description: >-
 
 # 💰 Claimables
 
+### Claimable Building Block
 
+
+
+{% swagger method="get" path="/{address}" baseUrl="https://claimables.decentri.fi" summary="Get Claimables for a specific address." %}
+{% swagger-description %}
+This call gets all possible claimables for an address.
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="address" type="String" required="true" %}
+address of the user
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="include" type="Array<String>" %}
+what protocols to include
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="exclude" type="Array<String>" %}
+what protocols to exclude
+{% endswagger-parameter %}
+{% endswagger %}
+
+## The Native API
+
+Did you know you can also use the native API to get Claimables for specific protocols?&#x20;
 
 {% swagger method="get" path="/{protocol}/{address}/claimables" baseUrl="https://api.decentri.fi" summary="Fetch claimables pertaining to specific account for a protocol. " %}
 {% swagger-description %}
