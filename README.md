@@ -10,7 +10,7 @@ It unifies all concepts of lending, borrowing, vaults, farming and staking to ea
 
 ## Supported Protocols
 
-The supported protocols an be found at Supported Protocols. You can also find query the API to see the actively supported protocols.
+The supported protocols can be found at Supported Protocols. You can also find query the API to see the actively supported protocols.
 
 {% hint style="info" %}
 **Example**
